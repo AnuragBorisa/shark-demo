@@ -8,9 +8,11 @@ const Header = () => {
       <h1 className="headerTitle">My Website</h1>
       <nav>
         <ul className="headerList">
-          <li><a href="/" className="headerLink">Home</a></li>
-          <li><a href="/about" className="headerLink">About</a></li>
-          <li><a href="/contact" className="headerLink">Contact</a></li>
+          <li><a href="/" className="headerLink">Explore</a></li>
+          <li><a href="/about" className="headerLink">Solutions</a></li>
+          <li><a href="/contact" className="headerLink">Resources</a></li>
+          <li><a href="/contact" className="headerLink">Company</a></li>
+          <li><a href="/contact" className="headerLink">Price</a></li>
         </ul>
       </nav>
     </header>

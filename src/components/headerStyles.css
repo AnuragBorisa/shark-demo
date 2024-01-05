@@ -1,0 +1,17 @@
+/* headerStyles.css */
+.header {
+    @apply bg-black text-white p-4 flex justify-between items-center;
+  }
+  
+  .headerTitle {
+    @apply text-xl;
+  }
+  
+  .headerLink {
+    @apply hover:bg-gray-700 p-2 rounded;
+  }
+  
+  .headerList {
+    @apply flex space-x-4;
+  }
+  

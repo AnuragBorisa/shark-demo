@@ -2,6 +2,7 @@ import React from "react";
 import "./MiddlePageFive.css";
 import { Fragment } from "react";
 import { useState } from "react";
+import Cards from "./Cards";
 
 const MiddlePageFive = () => {
   const [rightClick, setRightClick] = useState(true);
@@ -53,6 +54,16 @@ const MiddlePageFive = () => {
               right
             </button>
           </div>
+        </div>
+        <div className="blogs-Container">
+          <h1 className="recent-blogs">Recent Blogs</h1>
+          <div className="card-blog">
+            <Cards />
+            <Cards />
+            <Cards />
+          </div>
+
+          <button className="show-all-content">Show All Posts</button>
         </div>
       </section>
     </Fragment>

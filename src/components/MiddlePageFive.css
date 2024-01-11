@@ -1,0 +1,44 @@
+.mid-pge-five{
+background-color: cadetblue;
+}
+.comments-container{
+    background-color: rgba(12, 14, 22, 0.678);
+    display: grid;
+    grid-template-rows: 50px 150px auto;
+    width: 750px;
+    margin-left: 550px;
+    height: 500px;
+    border-radius: 20px;
+    padding-top: 100px;
+}
+.comments-heading{
+    margin-left: 220px;
+    font-size: 20px;
+  
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.comments-para{
+    padding-top: 7px;
+    font-size: 12px;
+    padding-left: 10px;
+    width: 500px;
+    margin-left: 130px;
+    height: 150px;
+}
+.comments-btns{
+   
+    width: 200px;
+    height: 100px;
+    margin-left: 270px;
+    padding-top: 10px;
+   padding-left: 40px;
+}
+.left{
+   padding-right: 10px; 
+}
+.right{
+    padding-left: 50px;
+}
+

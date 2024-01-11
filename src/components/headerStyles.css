@@ -1,17 +1,48 @@
-/* headerStyles.css */
-.header {
-    @apply bg-black text-white p-4 flex justify-between items-center;
-  }
-  
-  .headerTitle {
-    @apply text-xl;
-  }
-  
-  .headerLink {
-    @apply hover:bg-gray-700 p-2 rounded;
-  }
-  
-  .headerList {
-    @apply flex space-x-4;
-  }
-  
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* * {
+  background-color: black;
+} */
+.navBar {
+  background-color: black;
+  color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.headerList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+.headerList li {
+  font-size: 16px;
+}
+.headerLink {
+  text-decoration: none;
+  color: white;
+}
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.signupBtn {
+  font-size: 15px;
+
+  padding: 15px;
+  border-radius: 5px;
+  background: rgb(88,244,255);
+    background: linear-gradient(90deg, rgb(57, 177, 185) 0%, rgba(86,194,249,1) 47%, rgb(70, 177, 219) 100%);
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  color: black;
+  /* padding: 20px; */
+  /* margin: 20px; */
+}

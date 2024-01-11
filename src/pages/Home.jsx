@@ -1,7 +1,28 @@
 import React from 'react'
-
+import { Fragment } from 'react'
+import Header from '../components/Header'
+import MainPage from '../components/MainPage'
+import Promises from '../components/Promises'
+import Footer from '../components/Footer'
+import Team from '../components/Team'
+import MiddlePageOne from '../components/MiddlePageOne'
+import MiddlePageTwo from '../components/MiddlePageTwo'
+import MiddlePageThree from '../components/MiddlePageThree'
+import MiddlePageFour from '../components/MiddlePageFour'
+import MiddlePageFive from '../components/MiddlePageFive'
 export const Home = () => {
   return (
-    <div>Home</div>
+   <Fragment > 
+    <Header />
+    <MainPage/>
+    <Promises />
+    <MiddlePageOne />
+    <MiddlePageTwo />
+    <MiddlePageThree />
+    <MiddlePageFour />
+    <MiddlePageFive />
+    
+    
+     </Fragment>
   )
 }

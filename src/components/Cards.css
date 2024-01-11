@@ -1,0 +1,100 @@
+.card-main{
+    background-color: rgba(9, 18, 24, 0.959);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+
+}
+.cards-image{
+    
+    height: 200px;
+    
+    width: 300px;
+    
+    border-radius: 10px;
+    
+    
+}
+.internal-cards-image{
+    
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+.cards-content{
+  
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 200px;
+    padding-top: 10px;
+}
+.cards-duration{
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 7px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    
+    
+}
+.course-btn{
+    background: linear-gradient(90deg, rgba(8,182,194,1) 0%, rgba(11,173,255,1) 47%, rgba(53,213,236,1) 100%);
+    border-radius: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 7px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+.course-duration{
+  
+    border-radius: 30px;
+    background-color: rgba(46, 134, 120, 0.774);
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 7px;
+    height: 35px;
+    margin-top: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.CEUS{
+    background-color: rgba(145, 43, 43, 0.685);
+    border-radius: 30px;
+    padding-left: 15px;
+    font-size: 12px;
+   
+    padding-top: 7px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-heading{
+   
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 27px;
+}
+.card-para{
+   
+    padding-top: 10px;
+    padding-left: 27px;
+}
+.take-me-there{
+    background-color: aquamarine;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    margin-left: 45px;
+    border-radius: 20px;
+    color: black;
+}
+

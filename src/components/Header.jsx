@@ -5,7 +5,7 @@ import HeaderCard from "./HeaderCard";
 import { Fragment } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import sharklogo from "../resources/Logo( Shark Cybertech).svg"
+import sharklogo from "../resources/Group 2468.svg"
 
 const Header = () => {
   const [isFocused, setIsFocused] = useState(false);

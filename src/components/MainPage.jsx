@@ -1,57 +1,50 @@
-import React from 'react'
-import './MainPage.css'; // Importing the Tailwind CSS styles
-import { Fragment } from 'react';
-import logo from "../resources/brand-unreal-engine-svgrepo-com.svg"
+import React from "react";
+import "./MainPage.css";
+import { Fragment } from "react";
+import logoone from "../resources/PngItem_1320262.png";
+import logotwo from "../resources/American-Airlines-PNG-Photo.png";
+import logothree from "../resources/kindpng_2735331.png";
+import logofour from "../resources/9984.T_BIG.D-87411322.png";
+import Form from "./Form";
 
 const MainPage = () => {
   return (
     <Fragment>
-    <section className="main-section">
-        <div className='content'>
-            <h1 className="main-heading">The Best Way To Learn <span className='gradient'>Cybersecurity Skills Online</span></h1>
-            <p className="main-paragraph">
-                Shark accessible, affordable training platform provides curated career paths, threat-informed training, and certification preparation for professionals at all levels.
-            </p>
-           
-            <div className='buttons'>
+      <section className="main-section">
+        <div className="content">
+          <h2 className="main-heading">Welcome to Shark Cybertech </h2>
+          <h1 className="gradient"> Forging Your Cybersecurity Mastery!</h1>
+          <p className="main-paragraph">
+            Embark on a paradigm-shifting odyssey into the realm of
+            cybersecurity prowess with Shark Cybertech, a trailblazer in
+            delivering unparalleled cybersecurity certification courses. Our
+            cutting-edge training platform is precision-engineered to transcend
+            theoretical boundaries, offering a meticulously curated blend of
+            theoretical acumen and immersive, hands-on experiences through live
+            projects and personalized one-on-one classes. This ensures not only
+            the acquisition of theoretical knowledge but the mastery of
+            practical skills, indispensable for navigating the ever-evolving
+            landscape of cybersecurity.
+          </p>
+
+          <div className="buttons">
             <button className="learn-button">Start Learning for Free</button>
             <button className="teams-button">Shark for Teams {">"}</button>
-            </div>
-            <span className="line"></span>
-           
-            <h2 className="trust-heading">Trusted by Leading Organizations</h2>
-            <div className='brands'>
-            <img src="" alt='logo' className='logo'></img>
-            <img src= ""alt='logo'></img>
-            <img src= "" alt='logo'></img>
-            </div>
+          </div>
+          <span className="line"></span>
+
+          <h2 className="trust-heading">Trusted by Leading Organizations</h2>
+          <div className="brands">
+            <img src={logoone}  alt="logo" className="main-pge-logos logoone"></img>
+            <img src={logotwo} alt="logo" className="main-pge-logos logotwo"></img>
+            <img src={logothree} alt="logo" className="main-pge-logos logothree"></img>
+            <img src={logofour} alt="logo" className="main-pge-logos logofour"></img>
+          </div>
         </div>
-        <form className='form'>
-            <h1 className="form-heading">Create a free account to start exploring the platform.</h1>
-            <div className='input-filed'>
-            <input type='email' className="email-input"/>
-            <button className="account-button">Create a free Account</button>
-            </div>
-           
-            <div className="down-one">
-            <h3 className="signup-heading">or sign up with</h3>
-            <div className='signin-buttons'>
-            <button className="google-button">google</button>
-            <button className="apple-button">apple</button>
-            <button className="microsoft-button">microsoft</button>
-            </div>
-            </div>
-            <hr class="solid" />
-            <div className='down-buttons'>
-            <button className="signin-button">Sign in</button>
-            <button className="sso-button">View all SSO options</button>
-            </div>
-        </form>
-    </section>  
-  
-    </Fragment>    
-    
-  )
-}
+        <Form />
+      </section>
+    </Fragment>
+  );
+};
 
 export default MainPage;

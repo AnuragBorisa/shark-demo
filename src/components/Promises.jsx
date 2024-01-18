@@ -1,30 +1,62 @@
-import React from 'react'
-import rocket from "../resources/rocket-svgrepo-com.svg"
+import React from "react";
+import rocket from "../resources/rocket-svgrepo-com.svg";
 import pen from "../resources/pen-svgrepo-com.svg";
 import puzzle from "../resources/game-svgrepo-com.svg";
 import "./promises.css";
 const Promises = () => {
   return (
-    <section className="flex justify-center items-center  bg-black-100">
-        <div className=" promises grid grid-cols-1 md:grid-cols-3 gap-8 p-8">
-            <div className="  promise-card bg-black p-6 rounded-lg shadow-lg text-center">
-            <img src={rocket} alt="rocket icon" className="mx-auto mb-4 w-16 h-16"/>
-                <h1 >Launch Your Career</h1>
-                <p>Start your cyber journey confidently with curated paths that teach the foundational concepts related to real, on-the-job skills.</p>
-            </div>
-            <div className="promise-card bg-black p-6 rounded-lg shadow-lg text-center">
-                <img src={pen} alt="shield icon" className="mx-auto mb-4 w-16 h-16"/>
-                <h1 >Get Certified</h1>
-                <p>Ace the exam with certification prep content developed by industry-leading instructors. Test yourself with our practice exams.</p>
-            </div>
-            <div className="promise-card bg-black p-6 rounded-lg shadow-lg text-center">
-                <img src={puzzle} alt="puzzle icon" className="mx-auto mb-4 w-16 h-16"/>
-                <h1>Upskill and Practice</h1>
-                <p>Master hands-on skills and familiarize yourself with the latest vulnerabilities and threats so you can prepare for real-world attacks.</p>
-            </div>
-        </div> 
+    <section className=" promises-container promises-bg flex justify-center items-center  bg-black-100">
+      <div className=" promises grid grid-cols-1 md:grid-cols-4 gap-8 p-8">
+        <div className="  promise-card bg-black p-6 rounded-lg shadow-lg text-center">
+          <img
+            src={rocket}
+            alt="rocket icon"
+            className="mx-auto mb-4 w-20 h-20"
+          />
+          <h1>Elevate Your Cyber Career</h1>
+          <p>
+            Embark on your cybersecurity journey confidently with Shark
+            Cybertech, a trusted choice for leading organizations. Our platform
+            offers curated paths that seamlessly blend foundational concepts
+            with real, on-the-job skills.
+          </p>
+        </div>
+        <div className="promise-card bg-black p-6 rounded-lg shadow-lg text-center">
+          <img src={pen} alt="shield icon" className="mx-auto mb-4 w-20 h-20" />
+          <h1>Achieve Certification Excellence</h1>
+          <p>
+            Ace your certification exams with content meticulously crafted by
+            our industry-leading instructors. Test your knowledge with our
+            comprehensive practice exams, ensuring you're well-prepared to excel
+            in the certification arena.
+          </p>
+        </div>
+        <div className="promise-card bg-black p-6 rounded-lg shadow-lg text-center">
+          <img
+            src={puzzle}
+            alt="puzzle icon"
+            className="mx-auto mb-4 w-20 h-20"
+          />
+          <h1>Upskill and Sharpen Your Edge</h1>
+          <p>
+            Master hands-on skills crucial for success in the cybersecurity
+            landscape. Familiarize yourself with the latest vulnerabilities and
+            threats, equipping you to handle real-world attacks with confidence.
+          </p>
+        </div>
+        <div className="promise-card bg-black p-6 rounded-lg shadow-lg text-center">
+          <img src={pen} alt="shield icon" className="mx-auto mb-4 w-20 h-20" />
+          <h1>Join the Ranks of Cybersecurity Experts</h1>
+          <p>
+            Shark Cybertech, a name trusted by industry giants, is your gateway
+            to mastering the art of cybersecurity. Create your free account
+            today and launch your career with a platform designed for
+            excellence.
+          </p>
+        </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
 export default Promises;

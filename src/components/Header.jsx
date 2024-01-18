@@ -1,10 +1,11 @@
-// header.jsx
+
 import React from "react";
-import "./headerStyles.css"; // Import the styles
+import "./headerStyles.css"; 
 import HeaderCard from "./HeaderCard";
 import { Fragment } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
+import sharklogo from "../resources/Logo( Shark Cybertech).svg"
 
 const Header = () => {
   const [isFocused, setIsFocused] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
   return (
     <Fragment>
     <header className="navBar">
-      <h1 className="title">My Website</h1>
+      <img src={sharklogo} alt="logo" className="title"></img>
       <ul className="headerList">
         <li onMouseEnter={hoverHandler} onMouseLeave={leaveHoverHandler}>
           <a href="/" className="headerLink explore">

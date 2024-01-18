@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     padding: 100px;
+   
     
 }
 .box-one{
@@ -10,9 +11,10 @@
     width: 600px;
     height: 600px;
     margin-left: 220px;
-   display: grid;
-   grid-template-rows: 150px 200px auto ;
+    display: grid;
+    grid-template-rows: auto auto auto;
    border-radius: 30px;
+   
 }
 .box-two{
     background-color: cyan;
@@ -23,32 +25,50 @@
 }
 .heading-middle-two{
    
-    width: 300px;
-    height: 100px;
-    margin-left: 80px;
-    margin-top: 100px;
-    padding-top: 50px;
-    font-size: 25px;
+   padding-top: 50px;
+   padding-left: 150px;
+   font-size: 30px;
+}
+.headline{
+    background-color: rgba(42, 50, 165, 0.288);
+   width: 600px;
+   padding-top: 15px;
+    margin-left: 60px;
+    text-align: justify;
+    height: 70px;
+   display: grid;
+   grid-template-rows: 15px 10px 10px;
+   gap: 5px;
+   border-radius: 10px;
+   padding-left: 10px;
+   
+   
+}
+
+.headline h1 {
     
+
+   
     
 }
-.para-mid-two{
-    
-    height: 170px;
-    width:400px;
-    margin-top: 50px;
-    margin-left: 80px;
-    padding-top: 10px;
+.headline p{
+   color: rgba(245, 229, 229, 0.671);
+   padding: 10px;
+   padding-left: 0px;
+   font-size: 15px;
+   white-space: nowrap;
 }
 .btn-mid-two{
     background: linear-gradient(90deg, rgb(0, 106, 177) 0%, rgb(41, 184, 255) 47%, rgb(1, 187, 216) 100%);
-    height: 50px;
+    height: 40px;
     width: 200px;
-    margin-top: 50px;
-    margin-left: 80px;
-    padding-right: 30px;
-    border-radius: 20px;
+    font-size: 10px;
+    margin-left: 60px;
+    
+    border-radius: 10px;
     color: black;
+    
+    text-wrap: nowrap;
 }
 .box-two-img{
     border-radius: 30px;

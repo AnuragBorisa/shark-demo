@@ -4,7 +4,8 @@ import cardimageone from "../resources/Screenshot from 2024-01-10 13-49-00.png"
 import { useState } from 'react'
 
 
-const Cards = () => {
+
+const Cards = (props) => {
   const [hoverd,setIsHoverd] = useState(false);
   const clickedHandler = () => {
     setIsHoverd(true);
@@ -13,9 +14,10 @@ const Cards = () => {
     setIsHoverd(false);
   }
   return (
+   
     <div className='card-main' onMouseEnter={clickedHandler} onMouseLeave={leaveHandler}>
         <div className='cards-image'>
-        <img src={cardimageone} alt="image" className='internal-cards-image'></img>
+        <img src={props.pic} alt="image" className='internal-cards-image'></img>
         </div>
         <div className='cards-content'>
             <div className='cards-duration'>
@@ -23,11 +25,12 @@ const Cards = () => {
                 <h1 className='course-duration'>30H:52</h1>
                 <h1 className='CEUS'>7 CEUS</h1>
             </div>
-            <h1 className='card-heading'>Penetration Testing and Ethical Hacking</h1>
-            <p className='card-para'>To assess the strength of your organizations cybersecurtiy posture,you need to gather...</p>
+            <h1 className='card-heading'>{props.title}</h1>
+            <p className='card-para'>{props.description}</p>
             {hoverd && <button className='take-me-there'>Take me there</button>}
         </div>
     </div>
+   
   )
 }
 

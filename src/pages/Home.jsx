@@ -17,8 +17,8 @@ export const Home = () => {
       <MainPage />
       <Promises />
       <MiddlePageOne />
-      <MiddlePageTwo />
       <MiddlePageThree />
+      <MiddlePageTwo />
       <MiddlePageFour />
       <MiddlePageFive />
       <Footer />

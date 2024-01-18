@@ -6,43 +6,78 @@
   background-color: black;
 } */
 .navBar {
-  background-color: black;
-  color: #fafafa;
-  display: flex;
-  flex-direction: row;
+  background-color: rgb(255, 21, 21);
+ 
+  display: grid;
+  grid-template-columns: 100px 400px auto;
   align-items: center;
-  justify-content: space-around;
+ 
+  padding-top: 20px;
+  padding-bottom: 10px;
+  
+
+  
 }
 .headerList {
   display: flex;
   flex-direction: row;
   gap: 20px;
   list-style-type: none;
+
 }
 .headerList li {
   font-size: 16px;
 }
 .headerLink {
   text-decoration: none;
-  color: white;
+ 
 }
 button {
   background-color: transparent;
   border: none;
-  color: white;
+  
 }
 .signupBtn {
   font-size: 15px;
 
   padding: 15px;
   border-radius: 5px;
-  background: rgb(88,244,255);
-    background: linear-gradient(90deg, rgb(57, 177, 185) 0%, rgba(86,194,249,1) 47%, rgb(70, 177, 219) 100%);
+  background: rgb(88, 244, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(57, 177, 185) 0%,
+    rgba(86, 194, 249, 1) 47%,
+    rgb(70, 177, 219) 100%
+  );
   margin-left: 10px;
-  margin-top: 10px;
-  width: 150px;
-  height: 50px;
+ 
+  
   color: black;
   /* padding: 20px; */
   /* margin: 20px; */
+}
+.title{
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  
+  
+  
+  
+}
+
+
+@media (max-width: 600px) { /* For screens that are 600px or less */
+  .navBar {
+    flex-direction: column; /* Stack the navBar items vertically */
+  }
+
+  .headerList {
+    flex-direction: column; /* Stack the headerList items vertically */
+    gap: 10px; /* Reduce the gap between items */
+  }
+
+  .signupBtn {
+    margin: 10px auto; /* Center the signupBtn horizontally */
+  }
 }

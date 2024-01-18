@@ -1,10 +1,18 @@
-.promises h1{
-   font-size: 20px;
-   font-family: 'Open Sans', sans-serif;
+.promises h1 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  white-space: nowrap;
 }
 .promises p {
-    font-family: 'Raleway', sans-serif;
-    font-size: small;
-    padding-top: 10px;
-    color: rgba(240, 248, 255, 0.795);
+  padding-top: 10px;
+  color: rgba(240, 248, 255, 0.637);
+
+  text-align: justify;
+
+  font-size: 14px;
+}
+.promises-container {
+  padding: 50px;
+ 
+  padding-right: 100px;
 }

@@ -96,9 +96,20 @@ const Header = () => {
     };
     window.addEventListener("resize", handleResize);
     handleResize(); // Call once on mount
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
+    // Close menu on document click (outside of menu or button)
+    const handleClick = (e) => {
+      if (!e.target.closest(".mobile-menu") && !e.target.closest(".mobile-menu-button")) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+    document.addEventListener("click", handleClick);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      document.removeEventListener("click", handleClick);
+    };
+  }, []);
   return (
     <Fragment>
       <header className="navBar">

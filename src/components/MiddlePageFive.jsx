@@ -95,6 +95,13 @@ import Cards from "./Cards";
 import rightbtn from "../resources/up-arrow.png";
 import { Link } from "react-router-dom";
 import { useBlogContext } from "../store/CourseContent/blogindex";
+const debounce = (func, delay) => {
+  let timeoutId;
+  return (...args) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => func.apply(this, args), delay);
+  };
+};
 
 const MiddlePageFive = () => {
   const [rightClick, setRightClick] = useState(true);
@@ -136,15 +143,35 @@ const MiddlePageFive = () => {
   };
 
   const isMobile = window.innerWidth <= 768;
-
+  // const debouncedSetCurrentCardIndex = debounce(setCurrentCardIndex, 100);
   useEffect(() => {
-    const handleResize = () => {
-      setCurrentCardIndex(0); // Reset to the first card on resize
-      setCurrentCardIndex(0); // Reset comment index on resize
-    };
+    const handleResize = debounce(() => {
+      setCurrentCardIndex(0); // Reset to first card on resize
+    }, 10000); // Adjust delay as needed
+  
     window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+  
+    const handleScroll = debounce(() => {
+      // Update card index based on scroll position if needed
+      // ... your logic for scroll event
+      // Example:
+      // if (window.scrollY > lastScrollY) {
+      //   setCurrentCardIndex(currentCardIndex + 1);
+      // } else {
+      //   setCurrentCardIndex(currentCardIndex - 1);
+      // }
+      // lastScrollY = window.scrollY;
+    }, 10000); // Adjust delay as needed
+  
+    window.addEventListener("scroll", handleScroll);
+  
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
+
+  // ... rest of the component code
 
   const handlePrevCard = () => {
     setCurrentCardIndex((prevCard) =>
@@ -181,18 +208,17 @@ const MiddlePageFive = () => {
       </div>
 
       <div className="blogs-Container">
-     
         <div className="card-blog">
           {isMobile ? (
             <Link
-            to={`./blogs/${blogContent[currentCardIndex].endpoint}`} // Assuming endpoint property for URL
-          >
-            <Cards
-              pic={blogContent[currentCardIndex].pic}
-              title={blogContent[currentCardIndex].title}
-              description={blogContent[currentCardIndex].description}
-              key={currentCardIndex}
-            />
+              to={`./blogs/${blogContent[currentCardIndex].endpoint}`} // Assuming endpoint property for URL
+            >
+              <Cards
+                pic={blogContent[currentCardIndex].pic}
+                title={blogContent[currentCardIndex].title}
+                description={blogContent[currentCardIndex].description}
+                key={currentCardIndex}
+              />
             </Link>
           ) : (
             blogContent.map((topic, index) => (
@@ -207,11 +233,13 @@ const MiddlePageFive = () => {
           )}
           {isMobile && (
             <div className="blog-navigation">
-              
-              <button className="prev-blog" onClick={() => setCurrentCardIndex(countout - 1)}>
+              <button
+                className="prev-blog"
+                onClick={handlePrevCard}
+              >
                 Previous
               </button>
-              <button onClick={() => setCurrentCardIndex(countout + 1)}>
+              <button onClick={handleNextCard}>
                 Next
               </button>
             </div>

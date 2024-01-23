@@ -90,24 +90,36 @@ const Header = () => {
   
 
   useEffect(() => {
-    // Check for mobile screen size on mount and resize
+    // Set initial state based on screen size
+    setIsMobileMenuOpen(false);
+
+    // Check for mobile screen size on resize
     const handleResize = () => {
       setIsMobileMenuOpen(window.innerWidth <= 768);
     };
     window.addEventListener("resize", handleResize);
-    handleResize(); // Call once on mount
 
     // Close menu on document click (outside of menu or button)
     const handleClick = (e) => {
-      if (!e.target.closest(".mobile-menu") && !e.target.closest(".mobile-menu-button")) {
+      if (e.target.closest(".mobile-menu") || e.target.closest(".mobile-menu-button")) {
+        return; // Ignore clicks within menu or button
+      }
+      setIsMobileMenuOpen(false); // Close menu on other clicks
+    };
+    document.addEventListener("click", handleClick);
+
+    // Close menu on scroll if open
+    const handleScroll = () => {
+      if (isMobileMenuOpen) {
         setIsMobileMenuOpen(false);
       }
     };
-    document.addEventListener("click", handleClick);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("resize", handleResize);
       document.removeEventListener("click", handleClick);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (

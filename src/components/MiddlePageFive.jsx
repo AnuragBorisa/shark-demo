@@ -181,9 +181,10 @@ const MiddlePageFive = () => {
       </div>
 
       <div className="blogs-Container">
-        <h1 className="recent-blogs">Recent Blogs</h1>
+     
         <div className="card-blog">
           {isMobile ? (
+            
             <Cards
               pic={blogContent[currentCardIndex].pic}
               title={blogContent[currentCardIndex].title}
@@ -203,6 +204,7 @@ const MiddlePageFive = () => {
           )}
           {isMobile && (
             <div className="blog-navigation">
+              
               <button className="prev-blog" onClick={() => setCurrentCardIndex(countout - 1)}>
                 Previous
               </button>

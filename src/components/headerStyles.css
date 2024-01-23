@@ -76,9 +76,16 @@ button {
 }
 @media (max-width: 768px) {
   .navBar {
-    grid-template-columns: 1fr 1fr 1fr ; /* Stack elements vertically */
+    padding-top: 10px;
+    grid-template-columns: 1fr 1.5fr 1fr ; /* Stack elements vertically */
     padding-left: 25px; /* Reduce padding */
     gap: 10px; /* Adjust gap between elements */
+  }
+  .mobile-menu{
+    background-color: rgb(16, 14, 20);
+    justify-content: center;
+    padding-left: 45%;
+    
   }
   
 
@@ -92,6 +99,8 @@ button {
   }
   .signupBtn {
     margin-top: 10px;
+    margin-left: 15px;
+
     /* Add space below the button */
   }
   .tteBtn {

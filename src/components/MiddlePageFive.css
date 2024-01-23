@@ -81,6 +81,40 @@ padding-bottom: 10px;
       
 }
 @media screen and (max-width: 768px) {
+    .mid-pge-five{
+        
+       
+    }
+    .prev-blog{
+        padding-right: 50px;
+        margin-left: 50px;
+    }
+    .blog-navigation{
+       
+        height: 100px;
+        padding-top: 25px;
+        padding-left: 20px;
+        width: 250px;
+        /* background-color: brown; */
+            
+          
+    }
+    .blogs-Container{
+       
+        display: grid;
+        grid-template-columns: 60px 100px 100px  ; /* Adjust if needed for image/content width */
+        
+       
+
+    }
+    .card-blog{
+  
+        display: grid;
+        grid-template-columns: 100px 100px 100px ;
+        margin-right: 100px;
+        margin-top: 50px;
+        
+        }
     @media only screen and (max-width: 768px) {
         .comments-container {
           grid-template-rows: auto auto auto auto;

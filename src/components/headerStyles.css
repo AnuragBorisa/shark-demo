@@ -1,48 +1,50 @@
+@font-face {
+  font-family: "SeogeUI";
+  src: local("SeogeUI"), url("../fonts/SegoeUI.ttf") format("truetype");
+}
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  /* font-family: "SeogeUI"; */
 }
 /* * {
   background-color: black;
 } */
 .navBar {
-  /* background-color: rgb(255, 21, 21); */
- 
+  background-color: rgb(16, 14, 20);
+  position: sticky;
+  top: 0;
   display: grid;
   grid-template-columns: 100px 400px auto;
   align-items: center;
- 
-  padding-top: 20px;
-  padding-bottom: 10px;
-  
-  
 
-  
+  padding-bottom: 10px;
+  padding-left: 250px;
+  gap: 310px;
+  font-family: "SeogeUI";
 }
 .headerList {
   display: flex;
   flex-direction: row;
   gap: 20px;
   list-style-type: none;
-
+  padding-left: 20px;
 }
 .headerList li {
-  font-size: 16px;
+  font-size: 18px;
 }
 .headerLink {
   text-decoration: none;
- 
 }
 button {
   background-color: transparent;
   border: none;
-  
 }
 .signupBtn {
   font-size: 15px;
+  align-self: center;
+  justify-content: center;
 
-  padding: 15px;
-  border-radius: 5px;
+  font-size: 16px;
+  border-radius: 100px;
   background: rgb(88, 244, 255);
   background: linear-gradient(
     90deg,
@@ -50,35 +52,53 @@ button {
     rgba(86, 194, 249, 1) 47%,
     rgb(70, 177, 219) 100%
   );
-  margin-left: 10px;
- 
-  
-  color: black;
+  margin-left: 20px;
+  height: 50px;
+  width: 120px;
+
+  color: rgb(255, 255, 255);
   /* padding: 20px; */
   /* margin: 20px; */
 }
-.title{
+.title {
   height: 70px;
   width: 70px;
   border-radius: 10px;
-  
-  
-  
-  
 }
-
-
-@media (max-width: 600px) { /* For screens that are 600px or less */
+.tteBtn {
+  border: 2px solid rgba(255, 255, 255, 0.582);
+  border-radius: 100px;
+  height: 50px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+@media (max-width: 768px) {
   .navBar {
-    flex-direction: column; /* Stack the navBar items vertically */
+    grid-template-columns: 1fr 1fr 1fr ; /* Stack elements vertically */
+    padding-left: 25px; /* Reduce padding */
+    gap: 10px; /* Adjust gap between elements */
   }
+  
 
   .headerList {
-    flex-direction: column; /* Stack the headerList items vertically */
-    gap: 10px; /* Reduce the gap between items */
+    padding-left: 25px;
+    padding-top: 10px;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 10px; /* Adjust gap between elements */
+    text-align: center; /* Center elements on mobile */
+    text-align: justify;
+  }
+  .signupBtn {
+    margin-top: 10px;
+    /* Add space below the button */
+  }
+  .tteBtn {
+    margin-left: 10px;
   }
 
-  .signupBtn {
-    margin: 10px auto; /* Center the signupBtn horizontally */
-  }
 }
+
+
+

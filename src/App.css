@@ -1,16 +1,23 @@
 /* src/styles.css */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 
 .slick-slide > div {
-    margin: 0px 10px;
-  }
+  margin: 0px 10px;
+}
+@font-face {
+  font-family: "SeogeUI";
+  src: local("SeogeUI"), url("./fonts/SegoeUI.ttf") format("truetype");
+}
+.app{
+  background-color: rgb(0, 0, 0);
+}

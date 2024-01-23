@@ -1,51 +1,69 @@
-/* MainPage.css */
+@font-face {
+  font-family: "SeogeUIBold";
+  src: local("SeogeUIBold"), url("../fonts/SegoeUIBold.ttf") format("truetype");
+}
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 .main-section {
   display: flex;
   
-
   flex-direction: row;
   color: black;
   padding: 50px 10px 20px 100px;
   justify-content: space-around;
   list-style-type: none;
-  background: rgb(5,38,89);
-background: linear-gradient(0deg, rgb(28, 94, 192) 0%, rgb(0, 0, 0) 100%);
-   height: 1000px;
+  /* background-image: url("../resources/home-HF_GA-1920x1080-CYBERSECU.gif"); */
+
+  height: 1000px;
+}
+.main-section::before{
+  content: "";
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+ 
+ 
 }
 .content {
-  background-color: rgba(206, 29, 29, 0);
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   padding-left: 150px;
-  gap: 10px;
   width: 900px;
   height: 780px;
 }
 
 .main-heading {
-  background-color: rgba(0, 0, 0, 0);
   padding-top: 70px;
-  
-  font-family: "Montserrat", sans-serif;
+  font-family: "SeogeUI";
   font-size: 20px;
 }
 .gradient {
-  background-image: linear-gradient(60deg, #0e8ddb, #0fbfc5);
+  background-image: linear-gradient(60deg, #4168e2, #424f77);
   background-clip: text;
   color: transparent;
-  font-size: 45px;
-  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-family: "SeogeUIBold";
+  background-color: rgb(233, 6, 6);
+}
+.gradient-two {
+  background-image: linear-gradient(60deg, #4168e2, #424f77);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+  font-family: "SeogeUIBold";
+  background-color: rgb(0, 0, 0);
 }
 
 .main-paragraph {
- 
-  font-family: "IBM Plex Sans", sans-serif;
+  padding-top: 10px;
+
   color: rgb(255, 255, 255);
   text-align: justify;
   font-size: 15px;
- 
 }
 .buttons {
   background-color: rgba(0, 0, 0, 0);
@@ -80,7 +98,7 @@ background: linear-gradient(0deg, rgb(28, 94, 192) 0%, rgb(0, 0, 0) 100%);
 }
 .brands {
   background-color: rgba(0, 0, 0, 0);
- 
+
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-around;
@@ -95,72 +113,132 @@ background: linear-gradient(0deg, rgb(28, 94, 192) 0%, rgb(0, 0, 0) 100%);
   border-radius: 20px;
   border-color: #2ccbd6;
 }
-.main-pge-logos{
-  
-  
+.main-pge-logos {
 }
-.logoone{
+.logoone {
   height: 110px;
   width: 160px;
   margin-left: 8px;
- 
 }
-.logotwo{
-   height: 50px;
-   width: 120px;
-   margin-top: 20px;
- 
+.logotwo {
+  height: 50px;
+  width: 120px;
+  margin-top: 20px;
+
   margin-left: 10px;
 }
-.logothree{
-  height: 50px;
+.logothree {
+  height: 45px;
   width: 200px;
   margin-top: 20px;
   margin-left: 10px;
 }
-.logofour{
-   height: 40px;
-   width: 200px;
+.logofour {
+  height: 40px;
+  width: 200px;
 
-   margin-top: 35px;
-   
- 
+  margin-top: 35px;
 }
 
+/* Add the following media queries to make the layout responsive */
 
-@media (max-width: 600px) { /* For screens that are 600px or less */
-    .main-section {
-      flex-direction: column; /* Stack the main-section items vertically */
-      background-size: cover; /* Resize the background image to cover the entire container */
-    }
-  
-    .content {
-      width: 90vw; /* 90% of viewport width */
-      height: auto; /* Adjust the height automatically */
-      padding: 2vw; /* 2% of viewport width */
-    }
-  
-    .form {
-      width: 90vw; /* 90% of viewport width */
-      height: auto; /* Adjust the height automatically */
-      margin: 5vw; /* 5% of viewport width */
-    }
-  
-    .form-heading {
-      width: 80vw; /* 80% of viewport width */
-      height: auto; /* Adjust the height automatically */
-    }
-  
-    .email-input {
-      width: 80vw; /* 80% of viewport width */
-    }
-  
-    .account-button {
-      width: 30vw; /* 30% of viewport width */
-      right: 25vw; /* 25% of viewport width */
-    }
-  
-    .signup-heading {
-      width: 50vw; /* 50% of viewport width */
-    }
+@media only screen and (max-width: 1200px) {
+  /* Reduce the padding and width of the main section */
+  .main-section {
+    padding: 30px 5px 10px 50px;
+    width: 90%;
   }
+
+  /* Reduce the width and height of the content */
+  .content {
+    width: 700px;
+    height: 600px;
+  }
+
+  /* Reduce the font size of the headings and paragraphs */
+  .main-heading {
+    font-size: 18px;
+  }
+  .gradient, .gradient-two {
+    font-size: 40px;
+  }
+  .main-paragraph {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* Change the flex direction of the main section to column */
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  /* Reduce the padding and width of the content */
+  .content {
+    padding-left: 50px;
+    width: 80%;
+    height: auto;
+  }
+
+  /* Reduce the font size of the headings and paragraphs */
+  .main-heading {
+    font-size: 16px;
+  }
+  .gradient, .gradient-two {
+    font-size: 30px;
+  }
+  .main-paragraph {
+    font-size: 12px;
+  }
+
+  /* Reduce the gap and height of the brands */
+  .brands {
+    gap: 20px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* Reduce the padding and width of the main section */
+  .main-section {
+    padding: 20px 5px 10px 20px;
+    width: 95%;
+  }
+
+  /* Reduce the padding and width of the content */
+  .content {
+    padding-left: 20px;
+    width: 90%;
+  }
+
+  /* Reduce the font size of the headings and paragraphs */
+  .main-heading {
+    font-size: 14px;
+  }
+  .gradient, .gradient-two {
+    font-size: 25px;
+  }
+  .main-paragraph {
+    font-size: 11px;
+  }
+
+  /* Reduce the height and width of the buttons */
+  .learn-button{
+    height: 40px;
+    width: 120px;
+  }
+
+  /* Reduce the width of the trust heading */
+  .trust-heading {
+    width: 200px;
+  }
+
+  /* Reduce the height of the brands */
+  .brands {
+  height: 80px;
+  
+    
+  }
+}

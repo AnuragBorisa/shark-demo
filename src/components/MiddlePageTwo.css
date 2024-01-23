@@ -1,76 +1,131 @@
-.container-box{
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: row;
-    padding: 100px;
-   
-    
+.container-box {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
 }
-.box-one{
-    background-color: rgb(21, 20, 36);
-    width: 600px;
-    height: 600px;
-    margin-left: 220px;
-    display: grid;
-    grid-template-rows: auto auto auto;
-   border-radius: 30px;
-   
+.box-one {
+  background-color: rgb(21, 20, 36);
+  width: 600px;
+  height: 600px;
+  margin-left: 220px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  border-radius: 30px;
 }
-.box-two{
-    background-color: cyan;
-    width: 600px;
-    height: 600px;
-    border-radius: 30px;
-    
+.box-two {
+  background-color: cyan;
+  width: 600px;
+  height: 600px;
+  border-radius: 30px;
 }
-.heading-middle-two{
-   
-   padding-top: 50px;
-   padding-left: 150px;
-   font-size: 30px;
+.heading-middle-two {
+  padding-top: 50px;
+  padding-left: 150px;
+  font-size: 30px;
 }
-.headline{
-    background-color: rgba(42, 50, 165, 0.288);
-   width: 600px;
-   padding-top: 15px;
-    margin-left: 60px;
-    text-align: justify;
-    height: 70px;
-   display: grid;
-   grid-template-rows: 15px 10px 10px;
-   gap: 5px;
-   border-radius: 10px;
-   padding-left: 10px;
-   
-   
+.headline {
+  background-color: rgba(42, 50, 165, 0.288);
+  width: 600px;
+  padding-top: 15px;
+  margin-left: 60px;
+  text-align: justify;
+  height: 70px;
+  display: grid;
+  grid-template-rows: 15px 10px 10px;
+  gap: 5px;
+  border-radius: 10px;
+  padding-left: 10px;
 }
 
 .headline h1 {
-    
+}
+.headline p {
+  color: rgba(245, 229, 229, 0.671);
+  padding: 10px;
+  padding-left: 0px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.btn-mid-two {
+  background: linear-gradient(
+    90deg,
+    rgb(0, 106, 177) 0%,
+    rgb(41, 184, 255) 47%,
+    rgb(1, 187, 216) 100%
+  );
+  height: 40px;
+  width: 200px;
+  font-size: 10px;
+  margin-left: 60px;
 
-   
-    
+  border-radius: 10px;
+  color: black;
+
+  text-wrap: nowrap;
 }
-.headline p{
-   color: rgba(245, 229, 229, 0.671);
-   padding: 10px;
-   padding-left: 0px;
-   font-size: 15px;
-   white-space: nowrap;
+.box-two-img {
+  border-radius: 30px;
+  height: 600px;
 }
-.btn-mid-two{
-    background: linear-gradient(90deg, rgb(0, 106, 177) 0%, rgb(41, 184, 255) 47%, rgb(1, 187, 216) 100%);
-    height: 40px;
-    width: 200px;
-    font-size: 10px;
-    margin-left: 60px;
-    
-    border-radius: 10px;
-    color: black;
-    
-    text-wrap: nowrap;
-}
-.box-two-img{
-    border-radius: 30px;
-    height: 600px;
+
+/* Add media queries for smaller screen sizes */
+@media (max-width: 768px) {
+  /* For screens that are 600px or less */
+  .container-box {
+    flex-direction: column; /* Stack the container-box items vertically */
+    padding: 5vw; /* 5% of viewport width */
+  }
+
+  .box-one {
+    width: 90vw; /* 90% of viewport width */
+    height: auto; /* Adjust the height automatically */
+    margin: 2vw; /* 2% of viewport width */
+    border-radius: 5vw; /* 5% of viewport width */
+  }
+
+  .box-two {
+    width: 90vw; /* 90% of viewport width */
+    height: auto; /* Adjust the height automatically */
+    margin: 2vw; /* 2% of viewport width */
+    border-radius: 5vw; /* 5% of viewport width */
+  }
+
+  .heading-middle-two {
+    font-size: 5vw; /* 5% of viewport width */
+    padding: 2vw; /* 2% of viewport width */
+  }
+
+  .headline {
+    width: 80vw; /* 80% of viewport width */
+    height: auto; /* Adjust the height automatically */
+    margin: 2vw; /* 2% of viewport width */
+    border-radius: 2vw; /* 2% of viewport width */
+    padding: 2vw; /* 2% of viewport width */
+  }
+
+  .headline h1 {
+    font-size: 4vw; /* 4% of viewport width */
+  }
+
+  .headline p {
+    font-size: 3vw; /* 3% of viewport width */
+    white-space: inherit;
+
+  }
+
+  .btn-mid-two {
+    width: 60vw; /* 60% of viewport width */
+    height: 10vw; /* 10% of viewport width */
+    font-size: 4vw; /* 4% of viewport width */
+    margin: 2vw; /* 2% of viewport width */
+    border-radius: 2vw; /* 2% of viewport width */
+  }
+
+  .box-two-img {
+    width: 80vw; /* 80% of viewport width */
+    height: auto; /* Adjust the height automatically */
+    margin: 2vw; /* 2% of viewport width */
+    border-radius: 5vw; /* 5% of viewport width */
+  }
 }

@@ -8,11 +8,51 @@
   color: rgba(240, 248, 255, 0.637);
 
   text-align: justify;
-
-  font-size: 14px;
+  text-wrap: nowrap;
+  font-size: 17px;
+  
 }
 .promises-container {
   padding: 50px;
- 
-  padding-right: 100px;
+  padding-top: 0px;
+  padding-right: 80px;
+}
+
+/* Add the following media queries to make the layout responsive */
+
+@media only screen and (max-width: 768px) {
+  /* Reduce the font size of the promises h1 and p */
+  .promises h1 {
+    font-size: 18px;
+    white-space: inherit;
+
+  }
+  .promises p {
+    font-size: 15px;
+    
+  }
+
+  /* Reduce the padding of the promises-container */
+  .promises-container {
+    padding: 30px;
+    padding-top: 0px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* Reduce the font size of the promises h1 and p */
+  .promises h1 {
+    font-size: 16px;
+  }
+  .promises p {
+    font-size: 13px;
+  }
+
+  /* Reduce the padding of the promises-container */
+  .promises-container {
+    padding: 20px;
+    padding-top: 0px;
+    padding-right: 30px;
+  }
 }

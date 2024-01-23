@@ -14,7 +14,7 @@
 .cards {
   background-color: rgb(0, 0, 0);
   display: grid;
-  grid-template-columns: 300px 300px 300px auto;
+  grid-template-columns: 300px 300px 300px 300px;
   height: 580px;
   gap: 10px;
   padding-left: 300px;
@@ -44,4 +44,47 @@
 .pop-courses {
   padding-top: 17px;
   font-size: 20px;
+}
+
+/* For smartphones */
+@media (max-width: 767px) {
+  .mid-pg-four-tags {
+    width: auto;
+    grid-template-columns: 100px 100px 100px;
+  }
+
+  .cards {
+    grid-template-columns: 100px 100px 100px 100px; /* Adjust if needed for image/content width */
+    padding-left: 15px;
+  }
+
+  .cards .Cards {
+    /* Assuming card component class is 'Cards' */
+    padding: 10px; /* Adjust as needed */
+    margin: 5px; /* Adjust as needed */
+    width: 100%; /* Ensure flexibility */
+    height: auto; /* Avoid fixed heights */
+  }
+
+  .cards .Cards img {
+    max-width: 100%; /* Constrain images */
+  }
+
+  .fullcatlog {
+    margin-left: 10px;
+  }
+  .pop-courses {
+    margin-right: 20px;
+  }
+}
+.card-navigation{
+  /* background-color: brown; */
+  height: 100px;
+  padding-top: 25px;
+  padding-left: 20px;
+  width: 150px;
+  
+}
+.prev-card{
+  padding-right: 20px;
 }

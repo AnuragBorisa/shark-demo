@@ -10,7 +10,7 @@ import CourseContent from "./pages/CourseContent";
 function App() {
   return (
 
-    <div className="bg-black min-h-screen text-white">
+    <div className="app  min-h-screen text-white">
       <Fragment>
       <Routes>
     <Route path="/" element={<Home />} /> 

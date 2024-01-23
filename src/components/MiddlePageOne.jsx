@@ -26,7 +26,7 @@ const MiddlePageOne = () => {
     setIsClickedThree(true);
   };
   return (
-    <section className="middlePageOne">
+    <section id="first" className="middlePageOne">
       <div className="images">
         {clickedOne && (
           <img src={imageone} alt="image" className="changeable-images"></img>

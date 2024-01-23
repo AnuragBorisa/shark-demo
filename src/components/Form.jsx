@@ -51,14 +51,13 @@ const handleSubmit = (event) => {
   const firstName = data.get("firstName");
   const lastName = data.get("lastName");
   const email = data.get("email");
-  const password = data.get("password");
+  
 
   axios
     .post("/api/signup", {
       firstName,
       lastName,
       email,
-      password,
     })
     .then((res) => {
       console.log(res.data.message);
@@ -122,7 +121,7 @@ const handleSubmit = (event) => {
                   autoComplete="email"
                 />
               </Grid>
-              <Grid item xs={12}>
+              {/* <Grid item xs={12}>
                 <TextField
                   required
                   fullWidth
@@ -132,7 +131,7 @@ const handleSubmit = (event) => {
                   id="password"
                   autoComplete="new-password"
                 />
-              </Grid>
+              </Grid> */}
               <Grid item xs={12}>
                 <FormControlLabel
                   control={

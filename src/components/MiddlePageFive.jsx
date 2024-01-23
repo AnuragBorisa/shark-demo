@@ -5,6 +5,7 @@ import { useState } from "react";
 import Cards from "./Cards";
 import { Link } from "react-router-dom";
 import { useBlogContext } from "../store/CourseContent/blogindex";
+import rightbtn from "../resources/up-arrow.png"
 
 const MiddlePageFive = () => {
   const [rightClick, setRightClick] = useState(true);
@@ -69,19 +70,19 @@ const MiddlePageFive = () => {
           )}
           <div className="comments-btns">
             <button className="left" onClick={clickedLeft}>
-              left
+             <img src={rightbtn}alt="left"></img>
             </button>
             <button className="right" onClick={clickedRight}>
-              right
+            <img src={rightbtn}alt="right"></img>
             </button>
           </div>
         </div>
-        <div className="blogs-Container">
+        {/* <div className="blogs-Container">
           <h1 className="recent-blogs">Recent Blogs</h1>
           <div className="card-blog">{cardswithProps}</div>
 
           <button className="show-all-content">Show All Posts</button>
-        </div>
+        </div> */}
       </section>
     </Fragment>
   );

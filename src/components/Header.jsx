@@ -5,11 +5,15 @@ import HeaderCard from "./HeaderCard";
 import { Fragment } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import sharklogo from "../resources/Group 2468.svg"
-
+import sharklogo from "../resources/Shar_Logo-01 (1).png"
+import  Login  from "./Login";
 const Header = () => {
   const [isFocused, setIsFocused] = useState(false);
-  useEffect(() => {}, []);
+  const [clicked,setIsClicked] = useState(false);
+  const togglePop=()=>{
+    
+    setIsClicked(!clicked);
+  }
   const hoverHandler = () => {
     setIsFocused(true);
   };
@@ -18,6 +22,8 @@ const Header = () => {
       setIsFocused(false);
     }, [3000]);
   };
+  
+  
   return (
     <Fragment>
     <header className="navBar">
@@ -29,12 +35,12 @@ const Header = () => {
           </a>
         </li>
         <li onMouseEnter={hoverHandler} onMouseLeave={leaveHoverHandler}>
-          <a href="/about" className="headerLink">
-            Solutions
+          <a href="/" className="headerLink">
+            Courses
           </a>
         </li>
         <li onMouseEnter={hoverHandler} onMouseLeave={leaveHoverHandler}>
-          <a href="/contact" className="headerLink">
+          <a href="three" className="headerLink">
             Resources
           </a>
         </li>
@@ -49,13 +55,14 @@ const Header = () => {
           </a>
         </li>
       </ul>
-      <div className="boxhumein">
-        <button>Login</button>
-        <button className="signupBtn">SignUp</button>
+      <div className="headerbtns">
+      <button className="tteBtn" onClick={togglePop}>Talk to Expert</button>
+        <button className="signupBtn">Get Enrolled</button>
+        {clicked ? <Login toggle={togglePop}/>:null}
       </div>
     </header>
     
-    {isFocused && <HeaderCard />}
+    {/* {isFocused && <HeaderCard />} */}
   </Fragment>
   );
 };

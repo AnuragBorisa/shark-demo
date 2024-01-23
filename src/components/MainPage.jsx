@@ -13,18 +13,10 @@ const MainPage = () => {
       <section className="main-section">
         <div className="content">
           <h2 className="main-heading">Welcome to Shark Cybertech </h2>
-          <h1 className="gradient"> Forging Your Cybersecurity Mastery!</h1>
+          <h1 className="gradient">Empowering Tomorrow's</h1>
+          <h1 className="gradient-two"> Cyber Guardians</h1>
           <p className="main-paragraph">
-            Embark on a paradigm-shifting odyssey into the realm of
-            cybersecurity prowess with Shark Cybertech, a trailblazer in
-            delivering unparalleled cybersecurity certification courses. Our
-            cutting-edge training platform is precision-engineered to transcend
-            theoretical boundaries, offering a meticulously curated blend of
-            theoretical acumen and immersive, hands-on experiences through live
-            projects and personalized one-on-one classes. This ensures not only
-            the acquisition of theoretical knowledge but the mastery of
-            practical skills, indispensable for navigating the ever-evolving
-            landscape of cybersecurity.
+            At Shark Cybertech, we're dedicated to empowering tomorrow's cyber guardians. Our cutting-edge courses and hands-on training prepare individuals to navigate the evolving cybersecurity landscape, ensuring they become formidable defenders of the digital realm.
           </p>
 
           <div className="buttons">

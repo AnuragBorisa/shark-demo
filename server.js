@@ -29,20 +29,22 @@ const UserSchema = new mongoose.Schema({
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
   email: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
+});
+const EmailSchema = new mongoose.Schema({
+  email: { type: String, required: true, unique: true },
 });
 
 const User = mongoose.model("users", UserSchema);
+const Email = mongoose.model("emails", EmailSchema);
 
 app.post("/api/signup", async (req, res) => {
-  const { firstName, lastName, email, password } = req.body;
+  const { firstName, lastName, email } = req.body;
 
   try {
     const newUser = new User({
       firstName,
       lastName,
       email,
-      password,
     });
 
     await newUser.save();
@@ -52,9 +54,22 @@ app.post("/api/signup", async (req, res) => {
     console.error(error);
     res.status(500).send("Server error");
   }
-  
 });
-
+app.post("/api/subscribe", async (req, res) => {
+  const { email } = req.body;
+  try {
+    const newEmail = new Email({
+      email,
+    });
+    await newEmail.save();
+    return res.json({
+      message: "Email subscribed",
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("Server error");
+  }
+});
 connectToMongo();
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

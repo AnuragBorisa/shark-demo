@@ -3,7 +3,7 @@ import "./MiddlePageThree.css"
 
 const MiddlePageThree = () => {
   return (
-    <section className='mid-pge-three'>
+    <section id='three' className='mid-pge-three'>
         <div className='mid-pge-heading'>
          <h1>Stand out from the crowd and </h1>
          <span>advance your career with Cybrary</span>

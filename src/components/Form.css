@@ -1,102 +1,107 @@
 .form {
-    background-color: #b4cdd3f3;
+  background-color: #b4cdd3f3;
+
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  width: 600px;
+  height: 600px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.form-heading {
+  /* background-color: rgb(255, 255, 255); */
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: 12px;
+  width: 400px;
+  height: 100px;
+  align-self: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.input-filed {
+  /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+
+  gap: 20px;
+}
+.email-input {
+  /* background-color: rgb(255, 255, 255); */
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: rgb(176, 253, 234);
+  position: relative;
+}
+.account-button {
+  background-color: rgb(98, 195, 224);
+  width: 175px;
+  height: 50px;
+  align-self: center;
+
+  border-radius: 20px;
+  position: absolute;
+  right: 225px;
+}
+.down-one {
+  /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10px;
+  margin-top: 40px;
+}
+.signup-heading {
+  /* background-color: rgb(255, 255, 255); */
+  width: 300px;
+  height: 20px;
+
+  margin-left: 30px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #0c0808;
+  margin-top: 50px;
+}
+.signin-buttons {
+  /* background-color: rgb(255, 255, 255); */
+  width: 200px;
+  height: 20px;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.down-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.signin-button {
+  /* background-color: rgb(83, 238, 243); */
+  width: 100px;
+  height: 20px;
+  align-self: first baseline;
+}
+.sso-button {
+  background-color: rgb(159, 252, 213);
+  width: 180px;
+  height: 30px;
+  border-radius: 10px;
+  align-self: last baseline;
+}
+@media only screen and (max-width: 768px) {
+  .form {
    
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-    width: 600px;
-    height: 600px;
-    margin-top: 50px;
-    border-radius: 20px;
    
+   height: 700px;
    
-    
   }
-  .form-heading {
-    /* background-color: rgb(255, 255, 255); */
-    padding: 10px;
-    margin-bottom: 10px;
-    padding-left: 12px;
-    width: 400px;
-    height: 100px;
-    align-self: center;
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-  }
-  .input-filed {
-    /* background-color: rgb(255, 255, 255); */
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-  
-    gap: 20px;
-  }
-  .email-input {
-    /* background-color: rgb(255, 255, 255); */
-    width: 500px;
-    height: 50px;
-    border-radius: 20px;
-    border-width: 2px;
-    border-color: rgb(176, 253, 234);
-    position: relative;
-  }
-  .account-button {
-    background-color: rgb(98, 195, 224);
-    width: 175px;
-    height: 50px;
-    align-self: center;
-  
-    border-radius: 20px;
-    position: absolute;
-    right: 225px;
-  }
-  .down-one {
-    /* background-color: rgb(255, 255, 255); */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 10px;
-    margin-top: 40px;
-  }
-  .signup-heading {
-    /* background-color: rgb(255, 255, 255); */
-    width: 300px;
-    height: 20px;
-  
-    margin-left: 30px;
-    font-family: "IBM Plex Sans", sans-serif;
-  }
-  
-  /* Solid border */
-  hr.solid {
-    border-top: 3px solid #0c0808;
-    margin-top: 50px;
-  }
-  .signin-buttons {
-    /* background-color: rgb(255, 255, 255); */
-    width: 200px;
-    height: 20px;
-  
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
-  }
-  .down-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-  .signin-button {
-    /* background-color: rgb(83, 238, 243); */
-    width: 100px;
-    height: 20px;
-    align-self: first baseline;
-  }
-  .sso-button {
-    background-color: rgb(159, 252, 213);
-    width: 180px;
-    height: 30px;
-    border-radius: 10px;
-    align-self: last baseline;
-  }
+}

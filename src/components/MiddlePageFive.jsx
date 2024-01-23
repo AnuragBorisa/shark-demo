@@ -184,13 +184,16 @@ const MiddlePageFive = () => {
      
         <div className="card-blog">
           {isMobile ? (
-            
+            <Link
+            to={`./blogs/${blogContent[currentCardIndex].endpoint}`} // Assuming endpoint property for URL
+          >
             <Cards
               pic={blogContent[currentCardIndex].pic}
               title={blogContent[currentCardIndex].title}
               description={blogContent[currentCardIndex].description}
               key={currentCardIndex}
             />
+            </Link>
           ) : (
             blogContent.map((topic, index) => (
               <Link to={`./blogs/${topic.endpoint}`} key={index}>

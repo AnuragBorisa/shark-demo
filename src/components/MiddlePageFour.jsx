@@ -38,12 +38,16 @@ const MiddlePageFour = () => {
      </div>
      <div className="cards">
        {isMobile ? (
+        <Link
+        to={`courses/${courseContent[currentCard].endPoint}`} // Assuming endpoint property for URL
+      >
          <Cards
            pic={courseContent[currentCard].pic}
            title={courseContent[currentCard].title}
            description={courseContent[currentCard].description}
            key={currentCard}
          />
+         </Link>
        ) : (
          courseContent.map((topic, index) => (
            <Link to={`courses/${topic.endPoint}`} key={index}>

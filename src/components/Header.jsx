@@ -78,7 +78,7 @@ import Login from "./Login";
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [clicked, setIsClicked] = useState(false);
-    const [isFocused, setIsFocused] = useState(false);
+    // const [isFocused, setIsFocused] = useState(false);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -87,14 +87,7 @@ const Header = () => {
   const togglePop = () => {
     setIsClicked(!clicked);
   };
-  const hoverHandler = () => {
-        setIsFocused(true);
-      };
-      const leaveHoverHandler = () => {
-        setTimeout(() => {
-          setIsFocused(false);
-        }, [3000]);
-      };
+  
 
   useEffect(() => {
     // Check for mobile screen size on mount and resize
@@ -113,27 +106,27 @@ const Header = () => {
         {/* Conditionally render header links and button */}
         {window.innerWidth > 768 ? (
           <ul className="headerList">
-            <li onMouseEnter={hoverHandler} onMouseLeave={leaveHoverHandler}>
+            <li >
               <a href="/" className="headerLink explore">
                 Explore
               </a>
             </li>
-            <li onMouseEnter={hoverHandler} onMouseLeave={leaveHoverHandler}>
+            <li >
               <a href="/" className="headerLink">
                 Courses
               </a>
             </li>
-            <li onMouseEnter={hoverHandler} onMouseLeave={leaveHoverHandler}>
+            <li>
               <a href="three" className="headerLink">
                 Resources
               </a>
             </li>
-            <li onMouseEnter={hoverHandler} onMouseLeave={leaveHoverHandler}>
+            <li >
               <a href="/contact" className="headerLink">
                 Company
               </a>
             </li>
-            <li onMouseEnter={hoverHandler} onMouseLeave={leaveHoverHandler}>
+            <li >
               <a href="/contact" className="headerLink">
                 Price
               </a>

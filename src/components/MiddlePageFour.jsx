@@ -21,23 +21,15 @@ const MiddlePageFour = () => {
     const handleResize = debounce(() => {
       setCurrentCard(0); // Reset to first card on resize
     }, 10000); // Adjust delay as needed
-  
+
     window.addEventListener("resize", handleResize);
-  
+
     const handleScroll = debounce(() => {
-      // Update card index based on scroll position if needed
-      // ... your logic for scroll event
-      // Example:
-      // if (window.scrollY > lastScrollY) {
-      //   setCurrentCardIndex(currentCardIndex + 1);
-      // } else {
-      //   setCurrentCardIndex(currentCardIndex - 1);
-      // }
-      // lastScrollY = window.scrollY;
+      
     }, 10000); // Adjust delay as needed
-  
+
     window.addEventListener("scroll", handleScroll);
-  
+
     return () => {
       window.removeEventListener("resize", handleResize);
       window.removeEventListener("scroll", handleScroll);

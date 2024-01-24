@@ -95,6 +95,7 @@ import Cards from "./Cards";
 import rightbtn from "../resources/up-arrow.png";
 import { Link } from "react-router-dom";
 import { useBlogContext } from "../store/CourseContent/blogindex";
+import bluedot from "../resources/Untitled-1.png";
 const debounce = (func, delay) => {
   let timeoutId;
   return (...args) => {
@@ -148,23 +149,14 @@ const MiddlePageFive = () => {
     const handleResize = debounce(() => {
       setCurrentCardIndex(0); // Reset to first card on resize
     }, 10000); // Adjust delay as needed
-  
+
     window.addEventListener("resize", handleResize);
-  
+
     const handleScroll = debounce(() => {
-      // Update card index based on scroll position if needed
-      // ... your logic for scroll event
-      // Example:
-      // if (window.scrollY > lastScrollY) {
-      //   setCurrentCardIndex(currentCardIndex + 1);
-      // } else {
-      //   setCurrentCardIndex(currentCardIndex - 1);
-      // }
-      // lastScrollY = window.scrollY;
     }, 10000); // Adjust delay as needed
-  
+
     window.addEventListener("scroll", handleScroll);
-  
+
     return () => {
       window.removeEventListener("resize", handleResize);
       window.removeEventListener("scroll", handleScroll);
@@ -206,7 +198,11 @@ const MiddlePageFive = () => {
           </button>
         </div>
       </div>
-
+      <div className="mid-pg-five-tags">
+        <img src={bluedot} alt="Dot" className="bluedotmid-five" />
+        <h1 className="pop-courses-five">Popular Courses</h1>
+        <button className="fullcatlog-five">Full Catlog</button>
+      </div>
       <div className="blogs-Container">
         <div className="card-blog">
           {isMobile ? (
@@ -233,15 +229,10 @@ const MiddlePageFive = () => {
           )}
           {isMobile && (
             <div className="blog-navigation">
-              <button
-                className="prev-blog"
-                onClick={handlePrevCard}
-              >
+              <button className="prev-blog" onClick={handlePrevCard}>
                 Previous
               </button>
-              <button onClick={handleNextCard}>
-                Next
-              </button>
+              <button onClick={handleNextCard}>Next</button>
             </div>
           )}
         </div>

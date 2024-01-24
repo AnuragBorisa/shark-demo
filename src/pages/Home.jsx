@@ -10,11 +10,13 @@ import MiddlePageTwo from "../components/MiddlePageTwo";
 import MiddlePageThree from "../components/MiddlePageThree";
 import MiddlePageFour from "../components/MiddlePageFour";
 import MiddlePageFive from "../components/MiddlePageFive";
+import MidPageAboutUs from "../components/MidPageAboutUs";
 export const Home = () => {
   return (
     <Fragment>
       <Header />
       <MainPage />
+      <MidPageAboutUs />
       <Promises />
       <MiddlePageOne />
       <MiddlePageThree />

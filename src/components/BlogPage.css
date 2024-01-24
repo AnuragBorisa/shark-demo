@@ -1,81 +1,107 @@
-.blog-pge-main{
-   
-   
-    
-    padding-bottom: 40px;
-   
+.blog-pge-main {
+  padding-bottom: 40px;
 }
-.blog-right{
+.blog-right {
+  background-color: rgba(10, 11, 31, 0.596);
+}
+
+.blog-heading {
+  padding-top: 150px;
+
+  height: 350px;
+
+  font-size: 30px;
+
+  padding-right: 300px;
+  background-image: url("../resources/home4.jpg");
+  padding-left: 200px;
+}
+.blog-author {
+  padding-left: 100px;
+}
+.blog-content-with-links {
+  display: flex;
+  flex-direction: row;
+}
+.blog-content {
+  word-spacing: 2px;
+  color: #fafafae8;
+  font-size: 15px;
+  width: 700px;
+  margin-left: 500px;
+  padding-top: 30px;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 30px;
+}
+.blog-share {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 500px;
+  position: sticky;
+  width: 100px;
+
+  padding-left: 20px;
+}
+.blg-share-btn {
+  background-color: brown;
+  padding-left: 50px;
+}
+
+.blog-image {
+  margin-top: 400px;
+}
+.blog-interal-heading {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .blog-pge-main {
+      padding-bottom: 20px;
+    }
+    .blog-right {
+      background-color: rgba(10, 11, 31, 0.596);
+    }
   
-   
-    background-color: rgba(10, 11, 31, 0.596);
-    
-    
-   
-}
-
-.blog-heading{
- 
-   padding-top: 150px;
-
-    height: 350px;
+    .blog-heading {
+      padding-top: 50px;
   
-    font-size: 30px;
-   
-    padding-right: 300px;
-    background-image: url("../resources/home4.jpg");
-    padding-left: 200px;
-} 
-.blog-author{
+      height: 200px;
   
-    padding-left: 100px;
-
-}
-.blog-content-with-links{
- 
- display: flex;
- flex-direction: row;
-
-}
-.blog-content{
-     
-    word-spacing: 2px;
-    color: #fafafae8;
-    font-size: 15px;
-    width: 700px;
-    margin-left: 500px;
-    padding-top: 30px;
-    font-family: 'Mulish', sans-serif;
-    margin-bottom: 30px;
-   
-}
-.blog-share{
-   
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 500px;
-    position:sticky;
-    width: 100px;
-    
-    
-    padding-left: 20px;
-    
-    
-    
-}
-.blg-share-btn{
-    background-color: brown;
-    padding-left: 50px;
-}
-
-.blog-image{
-    margin-top: 400px;
-
-}
-.blog-interal-heading{
-   
-    font-size: 30px;
-    padding-bottom: 20px;
-}
-
+      font-size: 20px;
+  
+      padding-right: 50px;
+      background-image: url("../resources/home4.jpg");
+      padding-left: 50px;
+    }
+    .blog-author {
+      padding-left: 50px;
+    }
+    .blog-content-with-links {
+      display: block;
+    }
+    .blog-content {
+      word-spacing: 2px;
+      color: #fafafae8;
+      font-size: 12px;
+      width: 80vw;
+      margin-left: 10vw;
+      padding-top: 20px;
+      font-family: "Mulish", sans-serif;
+      margin-bottom: 20px;
+    }
+    .blog-share {
+      display: none;
+    }
+    .blg-share-btn {
+      display: none;
+    }
+  
+    .blog-image {
+      margin-top: 200px;
+    }
+    .blog-interal-heading {
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+  }

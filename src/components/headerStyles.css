@@ -79,12 +79,16 @@ button {
     padding-top: 10px;
     grid-template-columns: 1fr 1.5fr 1fr ; /* Stack elements vertically */
     padding-left: 25px; /* Reduce padding */
-    gap: 10px; /* Adjust gap between elements */
+    gap: 10px; 
+    /* Adjust gap between elements */
+  
+    
   }
   .mobile-menu{
     background-color: rgb(16, 14, 20);
     justify-content: center;
-    padding-left: 45%;
+    
+
     
   }
   
@@ -115,6 +119,7 @@ button {
 /* Show the mobile menu when isMobileMenuOpen is true */
 .mobile-menu.open {
   display: block;
+ 
 }
 
 /* Style the mobile menu items */

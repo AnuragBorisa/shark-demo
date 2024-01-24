@@ -1,0 +1,64 @@
+.abt-us-pge{
+   
+    display:flex;
+     height:600px;
+}
+.abt-us-img{
+   
+    padding-top: 5%;
+    padding-left: 20%;
+    width: 50vw;
+    
+}
+.abt-us-image{
+    border-radius: 20px;
+}
+.abt-us-cnt{
+   
+    display: grid;
+    grid-template-rows: 40px 130px;
+    width: 50vw;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+.abt-us-cnt h2{
+    font-size: 20px;
+}
+.abt-us-cnt h1{
+    font-size: 25px;
+   
+    width: 35%;
+}
+.abt-us-cnt p{
+   
+    width: 50%;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .abt-us-pge{
+        display:block;
+        height:auto;
+    }
+    .abt-us-img{
+        padding-top: 10%;
+        padding-left: 15%;
+        width: 80vw;
+    }
+    .abt-us-cnt{
+        display: block;
+        width: 80vw;
+        padding-top: 10%;
+        padding-left: 15%;
+    }
+    .abt-us-cnt h2{
+        font-size: 16px;
+    }
+    .abt-us-cnt h1{
+        font-size: 20px;
+        width: 100%;
+    }
+    .abt-us-cnt p{
+        width: 100%;
+       
+    }
+}

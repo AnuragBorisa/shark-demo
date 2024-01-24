@@ -13,7 +13,7 @@
   list-style-type: none;
   /* background-image: url("../resources/home-HF_GA-1920x1080-CYBERSECU.gif"); */
 
-  height: 1000px;
+  height: 900px;
 }
 .main-section::before{
   content: "";
@@ -142,30 +142,7 @@
 
 /* Add the following media queries to make the layout responsive */
 
-@media only screen and (max-width: 1200px) {
-  /* Reduce the padding and width of the main section */
-  .main-section {
-    padding: 30px 5px 10px 50px;
-    width: 90%;
-  }
 
-  /* Reduce the width and height of the content */
-  .content {
-    width: 700px;
-    height: 600px;
-  }
-
-  /* Reduce the font size of the headings and paragraphs */
-  .main-heading {
-    font-size: 18px;
-  }
-  .gradient, .gradient-two {
-    font-size: 40px;
-  }
-  .main-paragraph {
-    font-size: 13px;
-  }
-}
 
 @media only screen and (max-width: 800px) {
   /* Change the flex direction of the main section to column */
@@ -255,9 +232,9 @@
     margin-left: 10px;
   }
   .logothree {
-    height: 20px;
+    height: 22px;
     width: 200px;
-    margin-top: 20px;
+    margin-top: 24px;
     margin-left: 10px;
   }
   .logofour {

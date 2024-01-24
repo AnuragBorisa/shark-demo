@@ -53,3 +53,57 @@
   height: 35px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@media only screen and (max-width: 600px) {
+  .Crse-ctn-pge-ctner {
+    display: block;
+    color: black;
+    padding: 20px 0px 10px 0px;
+    list-style-type: none;
+    background: rgb(5, 38, 89);
+    background: linear-gradient(0deg, rgb(28, 94, 192) 0%, rgb(0, 0, 0) 100%);
+    height: auto;
+    margin-top: 50px;
+  }
+  .course-description {
+    background-color: rgba(206, 29, 29, 0);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding-left: 50px;
+    padding-top: 30px;
+
+    width: 80vw;
+    height: auto;
+  }
+  .course-tilte {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 30px;
+    padding-right: 5px;
+
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+  }
+  .course-para {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "IBM Plex Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  .course-ctner-btn {
+    margin-top: 20px;
+    padding-bottom: 5px;
+    background: linear-gradient(
+      90deg,
+      rgba(8, 182, 194, 1) 0%,
+      rgba(11, 173, 255, 1) 47%,
+      rgba(53, 213, 236, 1) 100%
+    );
+    border-radius: 15px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+}

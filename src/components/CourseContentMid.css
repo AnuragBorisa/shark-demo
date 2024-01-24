@@ -61,3 +61,55 @@
   width: 700px;
   margin-right: 100px;
 }
+@media only screen and (max-width: 600px) {
+  .course-container-mid {
+  }
+  .course-content {
+    display: block;
+  }
+  .course-ctn-heading {
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: "Mulish", sans-serif;
+    padding-bottom: 5px;
+    background-color: rgba(12, 12, 27, 0.829);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .course-topics {
+    
+    display: block;
+    
+    width: 80vw;
+  }
+  .course-topics-h1 {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .course-subtopics{
+      background-color: rgba(24, 21, 61, 0.171);
+      display: block;
+      padding-left: 25px;
+      gap: 10px;
+      padding-top: 5px;
+  }
+  .course-ctn-arrow {
+    display: none;
+  }
+  .description {
+    display: block;
+    margin-left: 10px;
+    padding-bottom: 25px;
+    margin-top: 35px;
+  }
+  .description-h1 {
+    padding-right: 370px;
+    font-size: 20px;
+    padding-left: 45px;
+  }
+  .description-para {
+    font-size: 12px;
+    width: 80vw;
+    margin-right: 50px;
+  }
+}

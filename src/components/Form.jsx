@@ -18,7 +18,6 @@ import axios from "axios";
 import "./Form.css";
 
 function Copyright(props) {
- 
   return (
     <Typography
       variant="body2"
@@ -36,47 +35,48 @@ function Copyright(props) {
   );
 }
 
-
-
 const defaultTheme = createTheme();
 
 export default function SignUp() {
-  const formRef= useRef(null);
- 
- 
-const handleSubmit = (event) => {
-  event.preventDefault();
-  const data = new FormData(event.currentTarget);
+  const formRef = useRef(null);
 
-  const firstName = data.get("firstName");
-  const lastName = data.get("lastName");
-  const email = data.get("email");
-  
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
 
-  axios
-    .post("/api/signup", {
-      firstName,
-      lastName,
-      email,
-    })
-    .then((res) => {
-      console.log(res.data.message);
-      formRef.current.reset();
-    })
-    .catch((err) => {
-      console.error(err.response.data);
-    });
-    
+    const firstName = data.get("firstName");
+    const lastName = data.get("lastName");
+    const email = data.get("email");
    
-};
+    axios
+      .post("/api/signup", {
+        firstName,
+        lastName,
+        email,
+      })
+      .then((res) => {
+        console.log(res.data.message);
+        formRef.current.reset();
+      })
+      .catch((err) => {
+        console.error(err.response.data);
+      });
+  };
 
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <Container className="form" component="main" maxWidth="xs">
+    <ThemeProvider theme={defaultTheme} >
+      <Container
+        
+        className="form"
+        component="main"
+        maxWidth="xs"
+        
+      >
         <CssBaseline />
         <Box
           sx={{
             marginTop: 8,
+
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -85,10 +85,15 @@ const handleSubmit = (event) => {
           <Avatar sx={{ m: 1, bgcolor: "black" }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography sx={{mb:5}} component="h1" variant="h5">
+          <Typography sx={{ mb: 5 }} component="h1" variant="h5">
             Sign up
           </Typography>
-          <Box component="form" noValidate onSubmit={handleSubmit} ref={formRef}>
+          <Box
+            component="form"
+            noValidate
+            onSubmit={handleSubmit}
+            ref={formRef}
+          >
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField

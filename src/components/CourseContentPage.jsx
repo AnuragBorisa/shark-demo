@@ -18,7 +18,7 @@ const CourseContentPage = () => {
           <p className="course-para">{course.description}</p>
           <button className="course-ctner-btn">Create a free account</button>
         </div>
-        <Form></Form>
+        <Form className="course-form" ></Form>
       </section>
     );
   }

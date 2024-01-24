@@ -82,7 +82,7 @@
     height: 650px;
   }
 }
-@media (min-width: 769px) and (max-width: 1280px) {
+@media (min-width: 769px) and (max-width: 1440px) {
   .mid-pge-three {
 
     height: 400px; /* Reduce the height of the middle page */

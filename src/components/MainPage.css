@@ -141,7 +141,7 @@
 }
 
 /* Add the following media queries to make the layout responsive */
-@media (min-width: 769px) and (max-width: 1280px){
+@media (min-width: 769px) and (max-width: 1440px){
   .main-section {
     
     align-items: center;

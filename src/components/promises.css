@@ -56,7 +56,7 @@
     padding-right: 30px;
   }
 }
-@media (min-width: 769px) and (max-width: 1280px){
+@media (min-width: 769px) and (max-width: 1440px){
   .promises h1 {
     font-size: 18px;
     white-space: inherit;

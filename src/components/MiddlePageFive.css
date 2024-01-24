@@ -222,7 +222,7 @@
   
 }
 /* Add media queries for 1280 screen size */
-@media (min-width: 769px) and (max-width: 1280px) {
+@media (min-width: 769px) and (max-width: 1440px) {
   /* For screens that are between 769px and 1280px */
   .mid-pge-five {
     /* You can add any styles for the .mid-pge-five element here */
@@ -230,7 +230,7 @@
 
   .comments-container {
     width: 600px; /* Reduce the width */
-    margin-left: 25%; /* Reduce the margin-left */
+    margin-left: 30%; /* Reduce the margin-left */
   }
 
   .comments-heading {
@@ -251,7 +251,7 @@
   }
 
   .blogs-Container {
-    /* You can add any styles for the .blogs-Container element here */
+     /* You can add any styles for the .blogs-Container element here */
   }
 
   .recent-blogs {
@@ -265,7 +265,7 @@
     gap: 10px;
     display: grid;
     grid-template-columns: 250px 250px 250px; /* Reduce the column sizes */
-    padding-left: 250px; /* Reduce the padding-left */
+    padding-left: 25%; /* Reduce the padding-left */
   }
 
   .show-all-content {
@@ -277,7 +277,7 @@
   .mid-pg-five-tags {
     width: 800px; /* Reduce the width */
     grid-template-columns: 80px auto 240px; /* Reduce the column sizes */
-    margin-left: 20%; /* Reduce the margin-left */
+    margin-left: 25%; /* Reduce the margin-left */
   }
 
   .bluedotmid-five {

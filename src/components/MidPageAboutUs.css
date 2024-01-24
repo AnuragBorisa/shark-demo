@@ -62,7 +62,7 @@
        
     }
 }
-@media (min-width: 769px) and (max-width: 1280px) {
+@media (min-width: 769px) and (max-width: 1440px) {
     .abt-us-pge{
         display:flex;
        
@@ -77,7 +77,7 @@
         display: grid;
         grid-template-rows: 40px 110px;
         width: 80vw;
-        padding-top: 5%;
+        padding-top: 7%;
         padding-left: 10%;
     }
     .abt-us-cnt h2{

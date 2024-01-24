@@ -126,9 +126,10 @@
       padding-top: 10px;
     }
   }
-  @media (min-width: 769px) and (max-width: 1280px) {
+  @media (min-width: 769px) and (max-width: 1440px) {
     .middlePageOne {
       padding: 50px; /* Reduce the padding of the middle page */
+      padding-left: 10%;
     }
   
     .images {

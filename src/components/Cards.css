@@ -102,7 +102,7 @@
       }
 }
 /* Add media queries for 1280 screen size */
-@media (min-width: 759px) and (max-width: 1280px) {
+@media (min-width: 759px) and (max-width: 1440px) {
   /* For screens that are between 759px and 1280px */
   .card-main {
     width: 250px; /* Reduce the width */

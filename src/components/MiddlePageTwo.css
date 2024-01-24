@@ -131,11 +131,11 @@
   }
 }
 /* Add media queries for 1280 * 800 screen size */
-@media (min-width: 769px) and (max-width: 1280px) {
+@media (min-width: 769px) and (max-width: 1440px) {
   /* For screens that are between 769px and 1280px */
   .container-box {
     flex-direction: row; /* Keep the container-box items horizontally */
-     padding-left: 10%;
+     padding-left: 15%;
    
      padding-top: 0;
     /* Reduce the padding */

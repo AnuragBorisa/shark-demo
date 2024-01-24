@@ -113,7 +113,7 @@
     margin-right: 50px;
   }
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1440px) {
   .course-container-mid {
     /* no changes needed */
   }

@@ -18,7 +18,7 @@
 
   padding-bottom: 10px;
   padding-left: 250px;
-  gap: 310px;
+  gap: 275px;
   font-family: "SeogeUI";
 }
 .headerList {
@@ -53,8 +53,8 @@ button {
     rgb(70, 177, 219) 100%
   );
   margin-left: 20px;
-  height: 50px;
-  width: 120px;
+  height: 30px;
+  width: 170px;
 
   color: rgb(255, 255, 255);
   /* padding: 20px; */
@@ -68,8 +68,8 @@ button {
 .tteBtn {
   border: 2px solid rgba(255, 255, 255, 0.582);
   border-radius: 100px;
-  height: 50px;
-  width: 130px;
+  height: 30px;
+  width: 170px;
   justify-content: center;
   align-items: center;
   align-self: center;

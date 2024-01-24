@@ -56,3 +56,22 @@
     padding-right: 30px;
   }
 }
+@media (min-width: 769px) and (max-width: 1280px){
+  .promises h1 {
+    font-size: 18px;
+    white-space: inherit;
+
+  }
+  .promises p {
+    font-size: 15px;
+    text-align: center;
+    
+  }
+
+  /* Reduce the padding of the promises-container */
+  .promises-container {
+    padding: 30px;
+    padding-top: 0px;
+    padding-right: 50px;
+  }
+}

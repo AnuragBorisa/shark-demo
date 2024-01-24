@@ -15,7 +15,7 @@ const MiddlePageFour = () => {
   const [currentCard, setCurrentCard] = useState(0);
   const courseContent = useCourseContext();
   //  const debouncedSetCurrentCard = debounce(setCurrentCard, 200);
-  const isMobile = window.innerWidth <= 758; // Adjust the breakpoint as needed
+  const isMobile = window.innerWidth <= 768; // Adjust the breakpoint as needed
 
   useEffect(() => {
     const handleResize = debounce(() => {

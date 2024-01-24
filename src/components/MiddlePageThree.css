@@ -1,79 +1,65 @@
-.mid-pge-three{
-   
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
-    /* added these lines */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    
+.mid-pge-three {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  /* added these lines */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.mid-pge-heading{
-    
-    
-    height: 200px;
-    width: 90%; /* changed from 900px to 90% */
-    display: inline-block;
-    background-color: rgb(0, 0, 0);
-    /* removed this line */
-    margin-left: 50%;
-    
-    
+.mid-pge-heading {
+  height: 200px;
+  width: 90%; /* changed from 900px to 90% */
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  /* removed this line */
+  margin-left: 50%;
 }
-.mid-pge-heading h1{
-    padding-left: 10%; /* changed from 220px to 10% */
-    font-size: 2vw; /* changed from 40px to 4vw */
-   
-   
+.mid-pge-heading h1 {
+  padding-left: 10%; /* changed from 220px to 10% */
+  font-size: 2vw; /* changed from 40px to 4vw */
 }
-.mid-pge-heading span{
-    margin-left: 8%; /* changed from 180px to 10% */
-    
-   
-    font-size: 2vw; /* changed from 40px to 4vw */
+.mid-pge-heading span {
+  margin-left: 8%; /* changed from 180px to 10% */
+
+  font-size: 2vw; /* changed from 40px to 4vw */
 }
 .mid-pge-btns {
-   background-color: rgb(0, 0, 0);
-    height: 200px;
-    display: grid;
-    grid-template-columns: auto auto  auto;
-   
-    width: 50%; /* changed from 900px to 90% */
-    margin-bottom: 100px;
-    column-gap: 10px;
-    padding: 20px;
-   
-    
-    
-   
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  width: 50%; /* changed from 900px to 90% */
+  margin-bottom: 100px;
+  column-gap: 10px;
+  padding: 20px;
 }
-.mid-pge-btns-internal{
-    background-color: rgba(62, 136, 204, 0.555);
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    height: 30px;
-    padding-top: 2px;
-    margin-top: 20px;   
-    margin-left: 5px;
+.mid-pge-btns-internal {
+  background-color: rgba(62, 136, 204, 0.555);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 /* added media query for screen width less than 600px */
 @media (max-width: 600px) {
-    .mid-pge-heading{
-        margin-right: 210px;
-        margin-top: 180px;
-    }
-    .mid-pge-heading span{
-        text-wrap: nowrap; /* changed from 180px to 10% */
-        
-         margin-left: 40px;
-        font-size: 5vw; /* changed from 40px to 4vw */
-    }
+  .mid-pge-heading {
+    margin-right: 210px;
+    margin-top: 180px;
+  }
+  .mid-pge-heading span {
+    text-wrap: nowrap; /* changed from 180px to 10% */
+
+    margin-left: 40px;
+    font-size: 5vw; /* changed from 40px to 4vw */
+  }
   .mid-pge-heading h1 {
     font-size: 6vw; /* increased the font size */
   }
@@ -81,19 +67,53 @@
   .mid-pge-btns {
     grid-template-columns: auto; /* changed the grid layout to one column */
     row-gap: 10px; /* added some gap between rows */
-    
+
     height: 600px;
     width: 300px;
     padding-bottom: 50px;
   }
-  .mid-pge-btns-internal{
+  .mid-pge-btns-internal {
     height: 50px;
     width: 250px;
     padding-top: 20px;
-    
   }
 
-.mid-pge-three{
-   height: 650px;
+  .mid-pge-three {
+    height: 650px;
+  }
 }
+@media (min-width: 769px) and (max-width: 1280px) {
+  .mid-pge-three {
+
+    height: 400px; /* Reduce the height of the middle page */
+  }
+
+  .mid-pge-heading {
+    padding-top: 7%;
+   
+
+    width: 80%; /* Reduce the width of the middle page heading */
+  /* Center the middle page heading */
+  }
+
+  .mid-pge-heading h1 {
+    font-size: 1.5vw; /* Reduce the font size of the middle page heading h1 */
+  }
+
+  .mid-pge-heading span {
+    font-size: 1.5vw; /* Reduce the font size of the middle page heading span */
+    /* Reduce the margin-left of the middle page heading span */
+  }
+
+  .mid-pge-btns {
+    width: 50%; /* Reduce the width of the middle page buttons */
+    column-gap: 5px; /* Reduce the gap between the middle page buttons */
+    padding: 10px; /* Reduce the padding of the middle page buttons */
+  }
+
+  .mid-pge-btns-internal {
+    height: 30px; /* Reduce the height of the middle page buttons internal */
+    margin-top: 10px; /* Reduce the margin-top of the middle page buttons internal */
+    margin-left: 2px; /* Reduce the margin-left of the middle page buttons internal */
+  }
 }

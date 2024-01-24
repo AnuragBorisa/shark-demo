@@ -107,3 +107,34 @@
   }
   
 }
+@media (min-width:769px)and (max-width: 1280px) {
+  .Crse-ctn-pge-ctner {
+    display: block;
+    padding: 20px 0px 10px 0px;
+    height: auto;
+    margin-top: 50px;
+  }
+  .course-description {
+    display: block;
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 80vw;
+    height: auto;
+  }
+  .course-tilte {
+    padding-top: 30px;
+    padding-right: 5px;
+    font-size: 35px;
+  }
+  .course-para {
+    font-size: 16pt;
+  }
+  .course-ctner-btn {
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 25px;
+  }
+}

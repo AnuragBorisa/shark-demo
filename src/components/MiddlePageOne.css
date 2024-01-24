@@ -126,4 +126,55 @@
       padding-top: 10px;
     }
   }
+  @media (min-width: 769px) and (max-width: 1280px) {
+    .middlePageOne {
+      padding: 50px; /* Reduce the padding of the middle page */
+    }
+  
+    .images {
+      margin-left: 150px; /* Reduce the margin-left of the images */
+      width: 500px; /* Reduce the width of the images */
+      height: 400px; /* Reduce the height of the images */
+      border-radius: 10px; /* Reduce the border-radius of the images */
+    }
+  
+    .buttonmiddlepage {
+      height: 300px; /* Reduce the height of the button middle page */
+      margin-top: 50px; /* Reduce the margin-top of the button middle page */
+      margin-left: 50px; /* Reduce the margin-left of the button middle page */
+    }
+  
+    .heading {
+      gap: 10px; /* Reduce the gap between the heading elements */
+      width: 100px; /* Reduce the width of the heading */
+    }
+  
+    .buttonmiddlepage p {
+      font-size: 12px; /* Reduce the font size of the button middle page paragraph */
+      width: 250px; /* Reduce the width of the button middle page paragraph */
+    }
+  
+    .start-learning {
+      font-size: 14px; /* Reduce the font size of the start learning element */
+      padding-right: 150px; /* Reduce the padding-right of the start learning element */
+    }
+  
+    .changeable-images {
+      margin-top: 25px; /* Reduce the margin-top of the changeable images */
+      margin-left: 25px; /* Reduce the margin-left of the changeable images */
+      height: 350px; /* Reduce the height of the changeable images */
+      width: 450px; /* Reduce the width of the changeable images */
+      border-radius: 5px; /* Reduce the border-radius of the changeable images */
+    }
+  
+    .bluedot {
+      height: 10px; /* Reduce the height of the blue dot */
+      width: 10px; /* Reduce the width of the blue dot */
+      margin-top: 15px; /* Reduce the margin-top of the blue dot */
+    }
+  
+    .click-buttons {
+      font-size: 16px; /* Reduce the font size of the click buttons */
+    }
+  }
   

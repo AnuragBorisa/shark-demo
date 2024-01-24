@@ -62,3 +62,34 @@
        
     }
 }
+@media (min-width: 769px) and (max-width: 1280px) {
+    .abt-us-pge{
+        display:flex;
+       
+       
+    }
+    .abt-us-img{
+        padding-top: 5%;
+        padding-left: 10%;
+        width: 80vw;
+    }
+    .abt-us-cnt{
+        display: grid;
+        grid-template-rows: 40px 110px;
+        width: 80vw;
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+    .abt-us-cnt h2{
+        font-size: 18px;
+    }
+    .abt-us-cnt h1{
+        font-size: 22px;
+        width: 50%;
+       
+    }
+    .abt-us-cnt p{
+        width: 70%;
+       text-align: start;
+    }
+}

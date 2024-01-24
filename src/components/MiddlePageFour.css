@@ -55,10 +55,9 @@
   }
 
   .cards {
-   
     height: 700px;
     display: grid;
-    grid-template-columns: 100px 100px  ; /* Adjust if needed for image/content width */
+    grid-template-columns: 100px 100px; /* Adjust if needed for image/content width */
     padding-left: 3%;
   }
 
@@ -82,7 +81,7 @@
     font-size: 15px;
   }
 }
-.card-navigation{
+.card-navigation {
   /* background-color: brown; */
   height: 100px;
   padding-top: 25px;
@@ -92,10 +91,52 @@
   margin-top: 550px;
   display: flex;
   flex-direction: row;
-  
 }
-.prev-card{
- 
+.prev-card {
   margin-right: 20px;
+}
+/* Add media queries for 1280 screen size */
+@media (min-width: 769px) and (max-width: 1280px) {
+  /* For screens that are between 768px and 1280px */
+  .mid-pg-four-tags {
+    width: 80%; /* Reduce the width */
+    grid-template-columns: 80px auto 240px; /* Reduce the column sizes */
+    margin: 0 auto; /* Center the element */
+  }
 
+  .cards {
+   
+    width: 80%; /* Reduce the width */
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px; /* Reduce the column sizes */
+    height: 480px; /* Reduce the height */
+    gap: 20px;
+    margin: 0 auto; /* Center the element */
+    padding-left: 1%; /* Remove the padding-left */
+  }
+
+  .bluedotmid {
+    margin-left: 20px; /* Reduce the margin-left */
+  }
+
+  .fullcatlog {
+    width: 100px; /* Reduce the width */
+    height: 40px; /* Reduce the height */
+    font-size: 12px; /* Reduce the font-size */
+    margin-left: 80px; /* Reduce the margin-left */
+  }
+
+  .pop-courses {
+    font-size: 18px; /* Reduce the font-size */
+  }
+
+  .card-navigation {
+    width: 120px; /* Reduce the width */
+    margin-top: 450px; /* Reduce the margin-top */
+    padding-left: 10px; /* Reduce the padding-left */
+  }
+
+  .prev-card {
+    margin-right: 10px; /* Reduce the margin-right */
+  }
 }

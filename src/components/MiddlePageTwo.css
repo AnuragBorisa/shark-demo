@@ -130,3 +130,65 @@
     border-radius: 5vw; /* 5% of viewport width */
   }
 }
+/* Add media queries for 1280 * 800 screen size */
+@media (min-width: 769px) and (max-width: 1280px) {
+  /* For screens that are between 769px and 1280px */
+  .container-box {
+    flex-direction: row; /* Keep the container-box items horizontally */
+     padding-left: 10%;
+   
+     padding-top: 0;
+    /* Reduce the padding */
+  }
+
+  .box-one {
+    width: 400px; /* Reduce the width */
+    height: 400px; /* Reduce the height */
+    margin-left: 100px; /* Reduce the margin-left */
+    border-radius: 20px; /* Reduce the border-radius */
+  }
+
+  .box-two {
+    width: 400px; /* Reduce the width */
+    height: 400px; /* Reduce the height */
+    border-radius: 20px; /* Reduce the border-radius */
+  }
+
+  .heading-middle-two {
+    font-size: 20px; /* Reduce the font-size */
+    padding-top: 25px; /* Reduce the padding-top */
+    padding-left: 75px; /* Reduce the padding-left */
+  }
+
+  .headline {
+    width: 400px; /* Reduce the width */
+    height: 50px; /* Reduce the height */
+    margin-left: 30px; /* Reduce the margin-left */
+    border-radius: 5px; /* Reduce the border-radius */
+    padding-top: 10px; /* Reduce the padding-top */
+    padding-left: 5px; /* Reduce the padding-left */
+  }
+
+  .headline h1 {
+    font-size: 15px; /* Reduce the font-size */
+  }
+
+  .headline p {
+    font-size: 10px; /* Reduce the font-size */
+    white-space: nowrap;
+  }
+
+  .btn-mid-two {
+    width: 150px; /* Reduce the width */
+    height: 30px; /* Reduce the height */
+    font-size: 8px; /* Reduce the font-size */
+    margin-left: 30px; /* Reduce the margin-left */
+    border-radius: 5px; /* Reduce the border-radius */
+  }
+
+  .box-two-img {
+    width: 400px; /* Reduce the width */
+    height: 400px; /* Reduce the height */
+    border-radius: 20px; /* Reduce the border-radius */
+  }
+}

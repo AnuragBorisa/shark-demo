@@ -206,3 +206,77 @@
   }
   
 }
+/* Add media queries for 1280 screen size */
+@media (min-width: 769px) and (max-width: 1280px) {
+  /* For screens that are between 769px and 1280px */
+  .mid-pge-five {
+    /* You can add any styles for the .mid-pge-five element here */
+  }
+
+  .comments-container {
+    width: 600px; /* Reduce the width */
+    margin-left: 25%; /* Reduce the margin-left */
+  }
+
+  .comments-heading {
+    margin-left: 150px; /* Reduce the margin-left */
+    font-size: 18px; /* Reduce the font-size */
+  }
+
+  .comments-para {
+    width: 400px; /* Reduce the width */
+    margin-left: 100px; /* Reduce the margin-left */
+    font-size: 10px; /* Reduce the font-size */
+  }
+
+  .comments-btns {
+    width: 150px; /* Reduce the width */
+    height: 80px; /* Reduce the height */
+    margin-left: 200px; /* Reduce the margin-left */
+  }
+
+  .blogs-Container {
+    /* You can add any styles for the .blogs-Container element here */
+  }
+
+  .recent-blogs {
+    width: 150px; /* Reduce the width */
+    height: 80px; /* Reduce the height */
+    font-size: 20px; /* Reduce the font-size */
+    margin-left: 700px; /* Reduce the margin-left */
+  }
+
+  .card-blog {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px; /* Reduce the column sizes */
+    padding-left: 250px; /* Reduce the padding-left */
+  }
+
+  .show-all-content {
+    width: 120px; /* Reduce the width */
+    height: 40px; /* Reduce the height */
+    margin-left: 750px; /* Reduce the margin-left */
+  }
+
+  .mid-pg-five-tags {
+    width: 800px; /* Reduce the width */
+    grid-template-columns: 80px auto 240px; /* Reduce the column sizes */
+    margin-left: 20%; /* Reduce the margin-left */
+  }
+
+  .bluedotmid-five {
+    margin-left: 20px; /* Reduce the margin-left */
+  }
+
+  .fullcatlog-five {
+    width: 100px; /* Reduce the width */
+    height: 40px; /* Reduce the height */
+    font-size: 12px; /* Reduce the font-size */
+    margin-left: 80px; /* Reduce the margin-left */
+  }
+
+  .pop-courses-five {
+    font-size: 18px; /* Reduce the font-size */
+  }
+}

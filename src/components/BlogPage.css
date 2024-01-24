@@ -56,52 +56,107 @@
   padding-bottom: 20px;
 }
 @media only screen and (max-width: 600px) {
-    .blog-pge-main {
-      padding-bottom: 20px;
-    }
-    .blog-right {
-      background-color: rgba(10, 11, 31, 0.596);
-    }
-  
-    .blog-heading {
-      padding-top: 50px;
-  
-      height: 200px;
-  
-      font-size: 20px;
-  
-      padding-right: 50px;
-      background-image: url("../resources/home4.jpg");
-      padding-left: 50px;
-    }
-    .blog-author {
-      padding-left: 50px;
-    }
-    .blog-content-with-links {
-      display: block;
-    }
-    .blog-content {
-      word-spacing: 2px;
-      color: #fafafae8;
-      font-size: 12px;
-      width: 80vw;
-      margin-left: 10vw;
-      padding-top: 20px;
-      font-family: "Mulish", sans-serif;
-      margin-bottom: 20px;
-    }
-    .blog-share {
-      display: none;
-    }
-    .blg-share-btn {
-      display: none;
-    }
-  
-    .blog-image {
-      margin-top: 200px;
-    }
-    .blog-interal-heading {
-      font-size: 20px;
-      padding-bottom: 10px;
-    }
+  .blog-pge-main {
+    padding-bottom: 20px;
   }
+  .blog-right {
+    background-color: rgba(10, 11, 31, 0.596);
+  }
+
+  .blog-heading {
+    padding-top: 50px;
+
+    height: 200px;
+
+    font-size: 20px;
+
+    padding-right: 50px;
+    background-image: url("../resources/home4.jpg");
+    padding-left: 50px;
+  }
+  .blog-author {
+    padding-left: 50px;
+  }
+  .blog-content-with-links {
+    display: block;
+  }
+  .blog-content {
+    word-spacing: 2px;
+    color: #fafafae8;
+    font-size: 12px;
+    width: 80vw;
+    margin-left: 10vw;
+    padding-top: 20px;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 20px;
+  }
+  .blog-share {
+    display: none;
+  }
+  .blg-share-btn {
+    display: none;
+  }
+
+  .blog-image {
+    margin-top: 200px;
+  }
+  .blog-interal-heading {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+}
+/* Add media queries for 1280 screen size */
+@media (min-width: 769px) and (max-width: 1280px) {
+  /* For screens that are between 601px and 1280px */
+  .blog-pge-main {
+    /* You can add any styles for the .blog-pge-main element here */
+  }
+
+  .blog-right {
+    /* You can add any styles for the .blog-right element here */
+  }
+
+  .blog-heading {
+    padding-top: 100px; /* Reduce the padding-top */
+    height: 250px; /* Reduce the height */
+    font-size: 25px; /* Reduce the font-size */
+    padding-right: 200px; /* Reduce the padding-right */
+    padding-left: 100px; /* Reduce the padding-left */
+  }
+
+  .blog-author {
+    padding-left: 80px; /* Reduce the padding-left */
+  }
+
+  .blog-content-with-links {
+    /* You can add any styles for the .blog-content-with-links element here */
+  }
+
+  .blog-content {
+    font-size: 14px; /* Reduce the font-size */
+    width: 600px; /* Reduce the width */
+    margin-left: 400px; /* Reduce the margin-left */
+    padding-top: 20px; /* Reduce the padding-top */
+    margin-bottom: 20px; /* Reduce the margin-bottom */
+  }
+
+  .blog-share {
+    padding-top: 400px; /* Reduce the padding-top */
+    width: 80px; /* Reduce the width */
+    padding-left: 15px; /* Reduce the padding-left */
+  }
+
+  .blg-share-btn {
+    width: 60px; /* Reduce the width */
+    padding-left: 40px; /* Reduce the padding-left */
+  }
+
+  .blog-image {
+    margin-top: 300px; /* Reduce the margin-top */
+  }
+
+  .blog-interal-heading {
+    font-size: 25px; /* Reduce the font-size */
+    padding-bottom: 15px; /* Reduce the padding-bottom */
+  }
+}

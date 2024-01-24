@@ -91,8 +91,8 @@
   .mid-pge-heading {
     padding-top: 7%;
    
-
-    width: 80%; /* Reduce the width of the middle page heading */
+    margin-right: 30%;
+    width: 50%; /* Reduce the width of the middle page heading */
   /* Center the middle page heading */
   }
 

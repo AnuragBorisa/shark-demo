@@ -89,6 +89,8 @@
 // };
 
 // export default MiddlePageFive;
+import leftarrow from "../resources/UP LEFT-01 (1).png"
+import rightarrow from "../resources/UP RIGHT-01.png"
 import React, { useState, useEffect } from "react";
 import "./MiddlePageFive.css";
 import Cards from "./Cards";
@@ -191,10 +193,10 @@ const MiddlePageFive = () => {
         )}
         <div className="comments-btns">
           <button className="left" onClick={clickedLeft}>
-            <img src={rightbtn} alt="left"></img>
+            <img src={leftarrow} alt="left" className="leftarrow"></img>
           </button>
           <button className="right" onClick={clickedRight}>
-            <img src={rightbtn} alt="right"></img>
+            <img src={rightarrow} alt="right" className="rightarrow"></img>
           </button>
         </div>
       </div>

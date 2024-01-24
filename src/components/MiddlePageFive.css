@@ -22,19 +22,34 @@
   padding-top: 10px;
 }
 .comments-para {
-  padding-top: 7px;
+  padding-top: 5%;
   font-size: 12px;
   padding-left: 10px;
   width: 500px;
   margin-left: 130px;
   height: 150px;
+ 
 }
 .comments-btns {
+  /* background-color: brown; */
   width: 200px;
-  height: 100px;
+  height: 200px;
   margin-left: 270px;
-  padding-top: 10px;
-  padding-left: 40px;
+  
+  display: flex;
+  flex-direction: row;
+}
+.leftarrow{
+   height: 30%;
+   width: 80%;
+   /* background-color: blue; */
+   margin-left: 40%;
+}
+.rightarrow{
+  /* background-color: burlywood; */
+  height: 30%;
+  width: 80%;
+  
 }
 .left {
   padding-right: 10px;
@@ -167,21 +182,21 @@
     margin-left: 12%;
   }
   .comments-btns {
-    height: 100px;
+    height: 120px;
     margin-left: 5%;
-    padding-left: 30%;
+    padding-left: 32%;
     width: 80%;
   }
   .left {
     height: 100px;
     width: 50px;
-    background-color: rgba(90, 96, 128, 0.418);
-    transform: rotate(180deg);
+  
+    
     margin-right: 10px;
     
   }
   .right {
-    background-color: rgba(90, 96, 128, 0.418);
+   
     
     height: 100px;
     width: 50px;
@@ -230,9 +245,9 @@
   }
 
   .comments-btns {
-    width: 150px; /* Reduce the width */
+    width: 120px; /* Reduce the width */
     height: 80px; /* Reduce the height */
-    margin-left: 200px; /* Reduce the margin-left */
+    margin-left: 230px; /* Reduce the margin-left */
   }
 
   .blogs-Container {

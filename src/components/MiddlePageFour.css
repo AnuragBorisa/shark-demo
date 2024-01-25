@@ -47,7 +47,32 @@
 }
 
 /* For smartphones */
-@media (max-width: 767px) {
+@media (max-width: 380px){
+  .mid-pg-four-tags {
+    width: auto;
+    grid-template-columns: 30% 30% 30%;
+    
+    
+  }
+  .fullcatlog {
+    margin-left: 0px;
+  }
+  .pop-courses {
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  .cards {
+
+   
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns:20% 20%; /* Adjust if needed for image/content width */
+   padding-top: 10%;
+   padding-left: 10%;
+  }
+}
+@media (min-width: 380px) and (max-width:480px) {
   .mid-pg-four-tags {
     width: auto;
     grid-template-columns: 100px 100px 100px;
@@ -55,25 +80,17 @@
   }
 
   .cards {
+
+  
     width: 100%;
     height: 700px;
     display: grid;
-    grid-template-columns:25% 20%; /* Adjust if needed for image/content width */
-    padding-left: 4%;
+    grid-template-columns:20% 20%; /* Adjust if needed for image/content width */
+   padding-top: 10%;
+   padding-left: 18%;
   }
 
-  .cards .Cards {
-    
-    /* Assuming card component class is 'Cards' */
-    padding: 10px; /* Adjust as needed */
-    margin: 5px; /* Adjust as needed */
-    width: 100%; /* Ensure flexibility */
-    height: auto; /* Avoid fixed heights */
-  }
 
-  .cards .Cards img {
-    max-width: 100%; /* Constrain images */
-  }
 
   .fullcatlog {
     margin-left: 0px;

@@ -89,16 +89,16 @@
   border-radius: 20px;
   color: black;
 }
-@media (max-width: 758px) {
+@media (max-width: 480px) {
     .card-main {
         background-color: rgba(9, 18, 24, 0.959);
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        width: 300px;
+        
+        
+      
+    
+        
         border-radius: 10px;
-        margin-top: 50%;
-        margin-left: 30%;
+       
       }
 }
 /* Add media queries for 1280 screen size */

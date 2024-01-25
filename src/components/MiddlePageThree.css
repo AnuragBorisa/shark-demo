@@ -49,7 +49,7 @@
 }
 
 /* added media query for screen width less than 600px */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .mid-pge-heading {
     margin-right: 210px;
     margin-top: 180px;

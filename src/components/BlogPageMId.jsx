@@ -1,6 +1,6 @@
 import React from 'react'
 import bluedot from "../resources/Untitled-1.png";
-import "./MiddlePageFour.css"
+// import "./MiddlePageFour.css"
 import Cards from './Cards'
 import { useState } from 'react';
 import { useEffect } from 'react';

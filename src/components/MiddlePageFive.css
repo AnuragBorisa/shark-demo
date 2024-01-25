@@ -127,109 +127,10 @@
   font-size: 20px;
 }
 
-@media (max-width:380px){
-  .mid-pge-five {
-    
-  }
-  .prev-blog {
-    padding-right: 10%;
-    margin-left: 35%;
-  }
-  .blog-navigation {
-    height: 100px;
-    padding-top: 25px;
-    padding-left: 20px;
-    width: 250px;
-    /* background-color: brown; */
-  }
-  .blogs-Container {
-    
-    display: grid;
-    grid-template-columns: 25% 20% ; /* Adjust if needed for image/content width */
-  }
-  .card-blog {
-   
-    width: 100%;
-    display: grid;
-    grid-template-columns:30% 30% ;
-    
-    margin-left: 40%;
-    margin-top: 50%;
-    
-  }
-  @media only screen and (max-width: 480px) {
-    .comments-container {
-      grid-template-rows: auto auto auto auto;
-      width: 100%;
-      margin-left: 0%;
-      padding-left: 7%;
-
-    }
-
-    .comments-heading,
-    .comments-para,
-    .comments-btns {
-      width: 100%;
-      margin-left: 0;
-    }
-
-    .card-blog {
-      grid-template-columns: 100%;
-      padding-left: 0;
-    }
-  }
-  .comments-heading {
-    margin-left: 1%;
-    
-    width: 90%;
-  }
-  .comments-para {
-    font-size: 10px;
-
-    width: 70%;
-    height: 100%;
-    margin-left: 12%;
-  }
-  .comments-btns {
-    height: 90%;
-    margin-left: 1%;
-    padding-left: 30%;
-    width: 80%;
-  }
-  .left {
-    height: 100px;
-    width: 50px;
-  
-    
-    margin-right: 10px;
-    
-  }
-  .right {
-   
-    
-    height: 100px;
-    width: 50px;
-    padding-left: 0px;
-    padding-right: 10px;
-  }
-  .mid-pg-five-tags {
-    width: auto;
-    grid-template-columns: 30% 25% 20%;
-    margin-left: 10%;
-  }
 
   
 
-  .fullcatlog-five {
-    margin-left: 0px;
-  }
-  .pop-courses-five {
-    margin-right: 2%;
-    font-size: 15px;
-  }
-}
-
-@media (min-width:380px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .mid-pge-five {
     
   }
@@ -255,8 +156,8 @@
     display: grid;
     grid-template-columns:30% 30% ;
     
-    margin-left: 40%;
-    margin-top: 50%;
+    margin-left: 20vw;
+    margin-top: 20vw;
     
   }
   @media only screen and (max-width: 768px) {

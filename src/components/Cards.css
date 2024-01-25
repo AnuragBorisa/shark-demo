@@ -89,18 +89,80 @@
   border-radius: 20px;
   color: black;
 }
-@media (max-width: 480px) {
-    .card-main {
-        background-color: rgba(9, 18, 24, 0.959);
-        
-        
-      
+@media (max-width: 768px) {
+  /* For screens that are 768px or smaller */
+  .card-main {
+   
+    width: 60vw; /* Reduce the width */
+    height: 500px; /* Reduce the height */
+    margin-top: 5px; /* Reduce the margin-top */
+  }
+
+  .cards-image {
+    width: 60vw; /* Reduce the width */
+    height: 200px; /* Reduce the height */
+  }
+
+  .internal-cards-image {
+    width: 300px; /* Reduce the width */
+    height: 200px; /* Reduce the height */
+  }
+
+  .cards-content {
     
-        
-        border-radius: 10px;
-       
-      }
+    height: 200px; /* Reduce the height */
+  }
+
+  .cards-duration {
+    padding-top: 5%;
+    padding-left:10%;
+    height: 60px; /* Reduce the height */
+    gap: 3px; /* Reduce the gap */
+  }
+
+  .course-btn {
+    width: 60px; /* Reduce the width */
+    height: 25px; /* Reduce the height */
+    font-size: 10px; /* Reduce the font-size */
+    padding-left: 10px; /* Reduce the padding-left */
+    padding-top: 5px; /* Reduce the padding-top */
+  }
+
+  .course-duration {
+    width: 50px; /* Reduce the width */
+    height: 25px; /* Reduce the height */
+    font-size: 8px; /* Reduce the font-size */
+    padding-left: 8px; /* Reduce the padding-left */
+    padding-top: 5px; /* Reduce the padding-top */
+  }
+
+  .CEUS {
+    width: 50px; /* Reduce the width */
+    height: 25px; /* Reduce the height */
+    font-size: 8px; /* Reduce the font-size */
+    padding-left: 8px; /* Reduce the padding-left */
+    padding-top: 5px; /* Reduce the padding-top */
+  }
+
+  .card-heading {
+    text-align: center;
+    font-size: 14px; /* Reduce the font-size */
+    padding-left: 1%; /* Reduce the padding-left */
+  }
+
+  .card-para {
+    font-size: 10px; /* Reduce the font-size */
+    width: 90%;
+    padding-left: 12%; /* Reduce the padding-left */
+  }
+
+  .take-me-there {
+    width: 100px; /* Reduce the width */
+    height: 25px; /* Reduce the height */
+    margin-left: 30%; /* Reduce the margin-left */
+  }
 }
+
 /* Add media queries for 1280 screen size */
 @media (min-width: 759px) and (max-width: 1440px) {
   /* For screens that are between 759px and 1280px */

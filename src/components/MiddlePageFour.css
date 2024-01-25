@@ -85,9 +85,9 @@
     width: 100%;
     height: 700px;
     display: grid;
-    grid-template-columns:20% 20%; /* Adjust if needed for image/content width */
+    grid-template-columns:20% 30%; /* Adjust if needed for image/content width */
    padding-top: 10%;
-   padding-left: 18%;
+   padding-left: 15%;
   }
 
 

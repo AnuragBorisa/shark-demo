@@ -247,7 +247,7 @@
   .blogs-Container {
     
     display: grid;
-    grid-template-columns: 40% 20% ; /* Adjust if needed for image/content width */
+    grid-template-columns: 35% 20% ; /* Adjust if needed for image/content width */
   }
   .card-blog {
    

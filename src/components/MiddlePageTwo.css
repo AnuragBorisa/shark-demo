@@ -71,7 +71,7 @@
 }
 
 /* Add media queries for smaller screen sizes */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   /* For screens that are 600px or less */
   .container-box {
     flex-direction: column; /* Stack the container-box items vertically */

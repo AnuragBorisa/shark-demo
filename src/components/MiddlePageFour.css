@@ -72,7 +72,7 @@
    padding-left: 10%;
   }
 }
-@media (min-width: 380px) and (max-width:480px) {
+@media (min-width: 380px) and (max-width:768px) {
   .mid-pg-four-tags {
     width: auto;
     grid-template-columns: 100px 100px 100px;

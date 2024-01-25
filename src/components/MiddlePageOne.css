@@ -70,7 +70,7 @@
   }
   
   /* Add media queries for smaller screen sizes */
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     /* For screens that are 600px or less */
     .middlePageOne {
       flex-direction: column; /* Stack the middlePageOne items vertically */

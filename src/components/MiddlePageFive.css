@@ -132,7 +132,7 @@
   }
   .prev-blog {
     padding-right: 10%;
-    margin-left: 70px;
+    margin-left: 35%;
   }
   .blog-navigation {
     height: 100px;
@@ -142,20 +142,26 @@
     /* background-color: brown; */
   }
   .blogs-Container {
+    
     display: grid;
-    grid-template-columns: 60px 100px ; /* Adjust if needed for image/content width */
+    grid-template-columns: 18% 20% ; /* Adjust if needed for image/content width */
   }
   .card-blog {
+   
+    width: 100%;
     display: grid;
-    grid-template-columns: 100px 100px ;
-    margin-left: 70%;
-    margin-top: 50px;
+    grid-template-columns:30% 30% ;
+    margin-left: 40%;
+    margin-top: 50%;
+    
   }
   @media only screen and (max-width: 768px) {
     .comments-container {
       grid-template-rows: auto auto auto auto;
-      width: 100%;
-      margin-left: 0;
+      width: 90%;
+      margin-left: 5%;
+      padding-left: 7%;
+
     }
 
     .comments-heading,
@@ -171,20 +177,21 @@
     }
   }
   .comments-heading {
-    margin-left: 12%;
-  
-    width: 300px;
+    margin-left: 1%;
+    
+    width: 90%;
   }
   .comments-para {
     font-size: 10px;
 
-    width: 300px;
+    width: 70%;
+    height: 100%;
     margin-left: 12%;
   }
   .comments-btns {
-    height: 120px;
-    margin-left: 5%;
-    padding-left: 32%;
+    height: 90%;
+    margin-left: 1%;
+    padding-left: 30%;
     width: 80%;
   }
   .left {
@@ -205,8 +212,7 @@
   }
   .mid-pg-five-tags {
     width: auto;
-    grid-template-columns: 100px 100px 100px;
-    
+    grid-template-columns: 30% 25% 20%;
     margin-left: 10%;
   }
 
@@ -216,7 +222,7 @@
     margin-left: 0px;
   }
   .pop-courses-five {
-    margin-right: 20px;
+    margin-right: 2%;
     font-size: 15px;
   }
   

@@ -4,21 +4,21 @@
   display: flex;
   flex-direction: column;
  
-  width: 600px;
-  height: 600px;
-  margin-top: 50px;
-  border-radius: 20px;
+  width: 41.67vw; /* 600px */
+  height: 41.67vw; /* 600px */
+  margin-top: 3.47vw; /* 50px */
+  border-radius: 1.39vw; /* 20px */
 }
 .form-heading {
   /* background-color: rgb(255, 255, 255); */
-  padding: 10px;
-  margin-bottom: 10px;
-  padding-left: 12px;
-  width: 400px;
-  height: 100px;
+  padding: 0.69vw; /* 10px */
+  margin-bottom: 0.69vw; /* 10px */
+  padding-left: 0.83vw; /* 12px */
+  width: 27.78vw; /* 400px */
+  height: 6.94vw; /* 100px */
   align-self: center;
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-size: 1.39vw; /* 20px */
 }
 .input-filed {
   /* background-color: rgb(255, 255, 255); */
@@ -26,85 +26,94 @@
   flex-direction: row;
   align-self: center;
 
-  gap: 20px;
+  gap: 1.39vw; /* 20px */
 }
 .email-input {
   /* background-color: rgb(255, 255, 255); */
-  width: 500px;
-  height: 50px;
-  border-radius: 20px;
+  width: 34.72vw; /* 500px */
+  height: 3.47vw; /* 50px */
+  border-radius: 1.39vw; /* 20px */
   border-width: 2px;
   border-color: rgb(176, 253, 234);
   position: relative;
 }
 .account-button {
   background-color: rgb(98, 195, 224);
-  width: 175px;
-  height: 50px;
+  width: 12.15vw; /* 175px */
+  height: 3.47vw; /* 50px */
   align-self: center;
 
-  border-radius: 20px;
+  border-radius: 1.39vw; /* 20px */
   position: absolute;
-  right: 225px;
+  right: 15.63vw; /* 225px */
 }
 .down-one {
   /* background-color: rgb(255, 255, 255); */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 10px;
-  margin-top: 40px;
+  padding-right: 0.69vw; /* 10px */
+  margin-top: 2.78vw; /* 40px */
 }
 .signup-heading {
   /* background-color: rgb(255, 255, 255); */
-  width: 300px;
-  height: 20px;
+  width: 20.83vw; /* 300px */
+  height: 1.39vw; /* 20px */
 
-  margin-left: 30px;
+  margin-left: 2.08vw; /* 30px */
   font-family: "IBM Plex Sans", sans-serif;
 }
 
 /* Solid border */
 hr.solid {
   border-top: 3px solid #0c0808;
-  margin-top: 50px;
+  margin-top: 3.47vw; /* 50px */
 }
 .signin-buttons {
   /* background-color: rgb(255, 255, 255); */
-  width: 200px;
-  height: 20px;
+  width: 13.89vw; /* 200px */
+  height: 1.39vw; /* 20px */
 
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 20px;
+  gap: 1.39vw; /* 20px */
 }
 .down-buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 2.78vw; /* 40px */
 }
 .signin-button {
   /* background-color: rgb(83, 238, 243); */
-  width: 100px;
-  height: 20px;
+  width: 6.94vw; /* 100px */
+  height: 1.39vw; /* 20px */
   align-self: first baseline;
 }
 .sso-button {
   background-color: rgb(159, 252, 213);
-  width: 180px;
-  height: 30px;
-  border-radius: 10px;
+  width: 12.5vw; /* 180px */
+  height: 2.08vw; /* 30px */
+  border-radius: 0.69vw; /* 10px */
   align-self: last baseline;
 }
 @media only screen and (max-width: 768px) {
+  /* For screens that are 768px or smaller */
   .form {
-  
    
-   position: relative;
-   left: 5px;
-  
-   
+    width: 100%; /* Reduce the width */
+    height: 180vw; /* Reduce the height */
+    margin-right: 3.5vw;
+    
+    margin-top: 10.47vw; /* Reduce the margin-top */
   }
-  
-}
+
+ 
+ 
+
+  .email-input {
+    width: 3.33vw; /* Reduce the width */
+    height: 3.33vw; /* Reduce the height */
+    border-radius: 1.33vw; /* Reduce the border-radius */
+  }
+  }

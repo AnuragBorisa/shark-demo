@@ -232,9 +232,9 @@ const MiddlePageFive = () => {
           {isMobile && (
             <div className="blog-navigation">
               <button className="prev-blog" onClick={handlePrevCard}>
-                Previous
+              {"<-"}
               </button>
-              <button onClick={handleNextCard}>Next</button>
+              <button onClick={handleNextCard}>{"->"}</button>
             </div>
           )}
         </div>

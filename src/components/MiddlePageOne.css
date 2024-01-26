@@ -1,73 +1,74 @@
 .middlePageOne {
-    background-color: rgb(0, 0, 0);
-    padding: 100px;
-    display: flex;
-    flex-direction: row;
-  }
-  .images {
-    background: rgb(8, 182, 194);
-    background: linear-gradient(
-      90deg,
-      rgba(8, 182, 194, 1) 0%,
-      rgba(11, 173, 255, 1) 47%,
-      rgba(53, 213, 236, 1) 100%
-    );
-    /* padding: 300px; */
-    margin-left: 250px;
-    height: 500px;
-    margin-top: 40px;
-    border-radius: 20px;
-    width: 650px;
-  }
-  .buttonmiddlepage {
-    background-color: rgb(0, 0, 0);
-    display: grid;
-    grid-template-rows: auto auto auto;
-    height: 400px;
-    margin-top: 80px;
-    margin-left: 100px;
-  }
-  .heading {
-    display: flex;
-    flex-direction: row;
-  
-    gap: 20px;
-    width: 150px;
-  }
-  .buttonmiddlepage p {
-    color: #fafafa8a;
-    font-size: 14px;
-    width: 300px;
-    text-align: justify;
-  }
-  .start-learning {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    padding-right: 220px;
-    background-color: rgb(0, 0, 0);
-  }
-  .changeable-images {
-    margin-top: 50px;
-    margin-left: 50px;
-    height: 450px;
-    width: 600px;
-    border-radius: 10px;
-  }
-  .bluedot {
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    margin-top: 25px;
-  }
-  .divider {
-    border-top: 1px solid #bbbbbb70;
-    margin-top: 20px;
-  }
-  .click-buttons {
-    font-family: "Montserrat", sans-serif;
-  
-    font-size: 20px;
-  }
+  background-color: rgb(0, 0, 0);
+  padding: 5.208vw;
+  display: flex;
+  flex-direction: row;
+}
+.images {
+  background: rgb(8, 182, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 182, 194, 1) 0%,
+    rgba(11, 173, 255, 1) 47%,
+    rgba(53, 213, 236, 1) 100%
+  );
+  /* padding: 15.625vw; */
+  margin-left:13.021vw;
+  height:26.042vw;
+  margin-top: 2vw;
+  border-radius: 1.042vw;
+  width: 33.854vw;
+}
+.buttonmiddlepage {
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-rows: auto auto auto;
+  height: 22.833vw;
+  margin-top: 4.167vw;
+  margin-left: 5.208vw;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1.042vw;
+  width: 7.812vw;
+}
+.buttonmiddlepage p {
+  color: #fafafa8a;
+  font-size: 0.729vw;
+  width: 15.625vw;
+  text-align: justify;
+}
+.start-learning {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.833vw;
+  padding-right: 11.458vw;
+  background-color: rgb(0, 0, 0);
+}
+.changeable-images {
+  margin-top: 2.604vw;
+  margin-left: 2.604vw;
+  height: 23.438vw;
+  width: 31.25vw;
+  border-radius: 0.521vw;
+}
+.bluedot {
+  border-radius: 50%;
+  height: 0.781vw;
+  width: 0.781vw;
+  margin-top: 1.302vw;
+}
+.divider {
+  border-top: 0.052vw solid #bbbbbb70;
+  margin-top: 1.042vw;
+}
+.click-buttons {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 1.042vw;
+}
+
   
   /* Add media queries for smaller screen sizes */
   @media (max-width: 768px) {
@@ -86,7 +87,7 @@
   
     .buttonmiddlepage {
       width: 90vw; /* 90% of viewport width */
-      height: auto; /* Adjust the height automatically */
+      height: 90vw; /* Adjust the height automatically */
       margin: 2vw; /* 2% of viewport width */
       grid-template-rows: auto; /* One row for the buttonmiddlepage */
     }
@@ -116,7 +117,7 @@
     .bluedot {
       height: 2vw; /* 2% of viewport width */
       width: 2vw; /* 2% of viewport width */
-      margin-bottom: 25px;
+      margin-top: 5vw;
     }
   
     .click-buttons {
@@ -126,56 +127,5 @@
       padding-top: 10px;
     }
   }
-  @media (min-width: 769px) and (max-width: 1440px) {
-    .middlePageOne {
-      padding: 50px; /* Reduce the padding of the middle page */
-      padding-left: 10%;
-    }
-  
-    .images {
-      margin-left: 150px; /* Reduce the margin-left of the images */
-      width: 500px; /* Reduce the width of the images */
-      height: 400px; /* Reduce the height of the images */
-      border-radius: 10px; /* Reduce the border-radius of the images */
-    }
-  
-    .buttonmiddlepage {
-      height: 300px; /* Reduce the height of the button middle page */
-      margin-top: 50px; /* Reduce the margin-top of the button middle page */
-      margin-left: 50px; /* Reduce the margin-left of the button middle page */
-    }
-  
-    .heading {
-      gap: 10px; /* Reduce the gap between the heading elements */
-      width: 100px; /* Reduce the width of the heading */
-    }
-  
-    .buttonmiddlepage p {
-      font-size: 12px; /* Reduce the font size of the button middle page paragraph */
-      width: 250px; /* Reduce the width of the button middle page paragraph */
-    }
-  
-    .start-learning {
-      font-size: 14px; /* Reduce the font size of the start learning element */
-      padding-right: 150px; /* Reduce the padding-right of the start learning element */
-    }
-  
-    .changeable-images {
-      margin-top: 25px; /* Reduce the margin-top of the changeable images */
-      margin-left: 25px; /* Reduce the margin-left of the changeable images */
-      height: 350px; /* Reduce the height of the changeable images */
-      width: 450px; /* Reduce the width of the changeable images */
-      border-radius: 5px; /* Reduce the border-radius of the changeable images */
-    }
-  
-    .bluedot {
-      height: 10px; /* Reduce the height of the blue dot */
-      width: 10px; /* Reduce the width of the blue dot */
-      margin-top: 15px; /* Reduce the margin-top of the blue dot */
-    }
-  
-    .click-buttons {
-      font-size: 16px; /* Reduce the font size of the click buttons */
-    }
-  }
+
   

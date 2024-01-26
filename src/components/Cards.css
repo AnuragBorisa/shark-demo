@@ -1,38 +1,40 @@
 .card-main {
   background-color: rgba(9, 18, 24, 0.959);
-  height: 500px;
+  height: 25.72vw; /* 500px */
   display: flex;
   flex-direction: column;
-  width: 300px;
-  border-radius: 10px;
-  margin-top: 20px;
+  width: 15.83vw; /* 300px */
+  border-radius: 0.69vw; /* 10px */
+  margin-top: 2vw; /* 20px */
 }
 .cards-image {
-  height: 200px;
+  height: 10.89vw; /* 200px */
 
-  width: 300px;
+  width: 15.83vw; /* 300px */
 
-  border-radius: 10px;
+  border-radius: 0.69vw; /* 10px */
 }
 .internal-cards-image {
-  border-radius: 10px;
-  height: 200px;
-  width: 300px;
+  border-radius: 0.69vw; /* 10px */
+  height: 10.89vw; /* 200px */
+  width: 20.83vw; /* 300px */
 }
 .cards-content {
+  
   display: grid;
   grid-template-rows: auto auto auto;
-  height: 200px;
-  padding-top: 10px;
+  height: 13.89vw; /* 200px */
+  padding-top: 0.69vw; /* 10px */
 }
 .cards-duration {
+  
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 7px;
-  height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 7px;
+  gap: 0.49vw; /* 7px */
+  height: 2.47vw; /* 50px */
+  padding-left: 1.39vw; /* 20px */
+  padding-right: 5.56vw; /* 80px */
+  padding-top: 0.49vw; /* 7px */
 }
 .course-btn {
   background: linear-gradient(
@@ -41,194 +43,143 @@
     rgba(11, 173, 255, 1) 47%,
     rgba(53, 213, 236, 1) 100%
   );
-  border-radius: 30px;
-  font-size: 15px;
-  padding-left: 20px;
-  padding-top: 7px;
-  height: 35px;
+  border-radius: 2.08vw; /* 30px */
+  font-size: 0.8vw; /* 15px */
+  padding-left: 0.5vw; /* 20px */
+ /* 7px */
+  height: 1.43vw; /* 35px */
+  width: 4vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .course-duration {
-  border-radius: 30px;
+  border-radius: 2.08vw; /* 30px */
   background-color: rgba(46, 134, 120, 0.774);
-  font-size: 12px;
-  padding-left: 15px;
-  padding-top: 7px;
-  height: 35px;
-  margin-top: 1px;
+  font-size: 0.83vw; /* 12px */
+  padding-left: 0.5vw; /* 15px */
+  /* 7px */
+  
+ 
+  height: 1.43vw; /* 35px */
+  margin-top: 0.07vw; /* 1px */
+  width: 4vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .CEUS {
   background-color: rgba(145, 43, 43, 0.685);
-  border-radius: 30px;
-  padding-left: 15px;
-  font-size: 12px;
-
-  padding-top: 7px;
-  height: 35px;
+  border-radius: 2.08vw; /* 30px */
+   /* 15px */
+  font-size: 0.7vw; /* 12px */
+  width: 4vw;
+ /* 7px */
+ padding-top: 0.1vw;
+ padding-left: 0.5vw;
+  height: 1.43vw; /* 35px */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card-heading {
-  padding-top: 10px;
-  font-size: 20px;
+ 
+  padding-top: 0.69vw; /* 10px */
+  font-size: 1.1vw; /* 20px */
   font-family: "Montserrat", sans-serif;
-  padding-left: 27px;
+  padding-left: 1.2vw; /* 27px */
+  width: 15vw;
 }
 .card-para {
-  font-size: 12px;
-
-  padding-top: 10px;
-  padding-left: 27px;
+  font-size: 0.6vw; /* 12px */
+  width: 15vw;
+  padding-top: 0.69vw; /* 10px */
+  padding-left: 1vw; /* 27px */
 }
 .take-me-there {
   background-color: aquamarine;
-  margin-top: 20px;
-  height: 40px;
-  width: 200px;
-  margin-left: 45px;
-  border-radius: 20px;
+  margin-top: 0.5vw; /* 20px */
+  height: 1.78vw; /* 40px */
+  width: 7.89vw; /* 200px */
+  margin-left: 3.13vw; /* 45px */
+  border-radius: 1.39vw; /* 20px */
   color: black;
 }
 @media (max-width: 768px) {
   /* For screens that are 768px or smaller */
   .card-main {
    
-    width: 60vw; /* Reduce the width */
-    height: 500px; /* Reduce the height */
-    margin-top: 5px; /* Reduce the margin-top */
+    width: 45vw; /* Reduce the width */
+    height: 65.72vw; /* Reduce the height */
+    margin-top: 0vw; /* Reduce the margin-top */
   }
 
   .cards-image {
-    width: 60vw; /* Reduce the width */
-    height: 200px; /* Reduce the height */
+    width: 45vw; /* Reduce the width */
+    height: 24.89vw; /* Reduce the height */
   }
 
   .internal-cards-image {
-    width: 300px; /* Reduce the width */
-    height: 200px; /* Reduce the height */
+    width: 45vw; /* Reduce the width */
+    height: 24.89vw; /* Reduce the height */
   }
 
   .cards-content {
+   padding-left: 2vw;
     
-    height: 200px; /* Reduce the height */
+    height: 18.89vw; /* Reduce the height */
   }
 
   .cards-duration {
-    padding-top: 5%;
-    padding-left:10%;
-    height: 60px; /* Reduce the height */
-    gap: 3px; /* Reduce the gap */
+   
+    width: 45vw
+    ;
+    height: 4.17vw; /* Reduce the height */
+      /* Reduce the gap */
   }
 
   .course-btn {
-    width: 60px; /* Reduce the width */
-    height: 25px; /* Reduce the height */
-    font-size: 10px; /* Reduce the font-size */
-    padding-left: 10px; /* Reduce the padding-left */
-    padding-top: 5px; /* Reduce the padding-top */
+    margin: 0;
+    padding-left: 2vw;
+    width: 12.17vw; /* Reduce the width */
+    height: 2.74vw; /* Reduce the height */
+    font-size: 2.3vw; /* Reduce the font-size */
+    /* Reduce the padding-top */
   }
 
   .course-duration {
-    width: 50px; /* Reduce the width */
-    height: 25px; /* Reduce the height */
-    font-size: 8px; /* Reduce the font-size */
-    padding-left: 8px; /* Reduce the padding-left */
-    padding-top: 5px; /* Reduce the padding-top */
+    padding-left: 2vw;
+    width: 12.47vw; /* Reduce the width */
+    height: 2.74vw; /* Reduce the height */
+    font-size: 2.3vw; /* Reduce the font-size */
+   /* Reduce the padding-top */
   }
 
   .CEUS {
-    width: 50px; /* Reduce the width */
-    height: 25px; /* Reduce the height */
-    font-size: 8px; /* Reduce the font-size */
-    padding-left: 8px; /* Reduce the padding-left */
-    padding-top: 5px; /* Reduce the padding-top */
+    width: 12.47vw; /* Reduce the width */
+    height: 2.74vw; /* Reduce the height */
+    font-size: 2.3vw; /* Reduce the font-size */
+    padding-left: 2vw; /* Reduce the padding-left */
+    padding-top: 0.35vw; /* Reduce the padding-top */
   }
 
   .card-heading {
+    padding: 0;
+   
+   
+    width: 30vw;
     text-align: center;
-    font-size: 14px; /* Reduce the font-size */
-    padding-left: 1%; /* Reduce the padding-left */
+    font-size: 2.5vw; /* Reduce the font-size */
+    /* Reduce the padding-left */
   }
 
   .card-para {
-    font-size: 10px; /* Reduce the font-size */
-    width: 90%;
-    padding-left: 12%; /* Reduce the padding-left */
+    font-size: 2vw; /* Reduce the font-size */
+    width: 40vw;
+    padding-left: 2vw; /* Reduce the padding-left */
   }
 
   .take-me-there {
-    width: 100px; /* Reduce the width */
-    height: 25px; /* Reduce the height */
-    margin-left: 30%; /* Reduce the margin-left */
+    width: 6.94vw; /* Reduce the width */
+    height: 1.74vw; /* Reduce the height */
+    margin-left: 2.08vw; /* Reduce the margin-left */
   }
 }
 
 /* Add media queries for 1280 screen size */
-@media (min-width: 759px) and (max-width: 1440px) {
-  /* For screens that are between 759px and 1280px */
-  .card-main {
-    width: 250px; /* Reduce the width */
-    height: 400px; /* Reduce the height */
-    margin-top: 10px; /* Reduce the margin-top */
-  }
 
-  .cards-image {
-    width: 250px; /* Reduce the width */
-    height: 150px; /* Reduce the height */
-  }
 
-  .internal-cards-image {
-    width: 250px; /* Reduce the width */
-    height: 150px; /* Reduce the height */
-  }
-
-  .cards-content {
-    height: 150px; /* Reduce the height */
-  }
-
-  .cards-duration {
-    height: 40px; /* Reduce the height */
-    gap: 5px; /* Reduce the gap */
-  }
-
-  .course-btn {
-    width: 80px; /* Reduce the width */
-    height: 30px; /* Reduce the height */
-    font-size: 12px; /* Reduce the font-size */
-    padding-left: 15px; /* Reduce the padding-left */
-    padding-top: 5px; /* Reduce the padding-top */
-  }
-
-  .course-duration {
-    width: 70px; /* Reduce the width */
-    height: 30px; /* Reduce the height */
-    font-size: 10px; /* Reduce the font-size */
-    padding-left: 10px; /* Reduce the padding-left */
-    padding-top: 5px; /* Reduce the padding-top */
-  }
-
-  .CEUS {
-    width: 70px; /* Reduce the width */
-    height: 30px; /* Reduce the height */
-    font-size: 10px; /* Reduce the font-size */
-    padding-left: 10px; /* Reduce the padding-left */
-    padding-top: 5px; /* Reduce the padding-top */
-  }
-
-  .card-heading {
-    font-size: 18px; /* Reduce the font-size */
-    padding-left: 20px; /* Reduce the padding-left */
-  }
-
-  .card-para {
-    font-size: 10px; /* Reduce the font-size */
-    width: 80%;
-    padding-left: 10px; /* Reduce the padding-left */
-  }
-
-  .take-me-there {
-    width: 150px; /* Reduce the width */
-    height: 30px; /* Reduce the height */
-    margin-left: 40px; /* Reduce the margin-left */
-  }
-}

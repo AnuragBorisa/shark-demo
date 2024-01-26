@@ -64,6 +64,7 @@ export default function SignUp() {
   };
 
   return (
+    <div className="form">
     <ThemeProvider theme={defaultTheme} >
       <Container
         
@@ -95,7 +96,7 @@ export default function SignUp() {
             ref={formRef}
           >
             <Grid container spacing={2}>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={4}>
                 <TextField
                   autoComplete="given-name"
                   name="firstName"
@@ -166,5 +167,6 @@ export default function SignUp() {
         <Copyright sx={{ mt: 5 }} />
       </Container>
     </ThemeProvider>
+    </div>
   );
 }

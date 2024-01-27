@@ -64,7 +64,7 @@ export default function SignUp() {
   };
 
   return (
-    <div className="form">
+    <div className="form-container">
     <ThemeProvider theme={defaultTheme} >
       <Container
         

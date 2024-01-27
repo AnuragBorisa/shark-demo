@@ -20,6 +20,7 @@
 }
 .app{
   background-color: rgb(0, 0, 0);
+  background-image: url("./resources/design.png");
 }
 /* * {
   outline: 1px solid red;

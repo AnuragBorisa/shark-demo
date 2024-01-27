@@ -1,12 +1,18 @@
+.form-container{
+  
+ 
+  padding-right: 5vw;
+  width: 35vw;
+}
 .form {
   background-color: #b4cdd3f3;
  
   display: flex;
   flex-direction: column;
- 
-  width: 41.67vw; /* 600px */
-  height: 41.67vw; /* 600px */
-  margin-top: 3.47vw; /* 50px */
+   padding: 2vw;
+  width: 35.67vw; /* 600px */
+  height: 33.67vw; /* 600px */
+  margin-top: 2.47vw; /* 50px */
   border-radius: 1.39vw; /* 20px */
 }
 .form-heading {
@@ -99,16 +105,21 @@ hr.solid {
 }
 @media only screen and (max-width: 768px) {
   /* For screens that are 768px or smaller */
-  .form {
+  .form-container {
+    
    
     width: 100%; /* Reduce the width */
-    height: 180vw; /* Reduce the height */
-    margin-right: 3.5vw;
+    height: 160%; /* Reduce the height */
     
-    margin-top: 10.47vw; /* Reduce the margin-top */
+  
+    
+    /* Reduce the margin-top */
   }
 
- 
+   .form{
+    height: 100%;
+
+   }
  
 
   .email-input {

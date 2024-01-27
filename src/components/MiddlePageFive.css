@@ -134,7 +134,7 @@
   
 @media only screen and (max-width: 768px) {
   .mid-pge-five {
-    padding-top: 10vw;
+    padding-top: 10%;
    
     height: 180vw;
   }
@@ -198,11 +198,11 @@
     padding-left: 2.604vw;
   }
   .blogs-Container {
-    margin-top: 7vw;
+    margin-top: 15vw;
    
     display: grid;
     grid-template-rows: auto auto auto;
-   
+    padding-left: 5%;
     padding-bottom: 0.260vw;
   }
   .recent-blogs {
@@ -236,7 +236,7 @@
     width: 90vw;
     height: 8vw;
     
-    padding-top: 2vw;
+    padding-top: 10vw;
     grid-template-columns: 20.94vw 20.94vw 6.94vw; /* 100px 100px 100px */
    
   }

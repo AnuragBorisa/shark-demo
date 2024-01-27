@@ -13,7 +13,7 @@
   position: sticky;
   top: 0;
   display: grid;
-  grid-template-columns: 5.2083333333333vw 20.833333333333vw auto;
+  grid-template-columns: 7.2083333333333vw 20.833333333333vw auto;
   align-items: center;
 
   padding-bottom: 0.52083333333333vw;
@@ -27,9 +27,11 @@
   gap: 1.0416666666667vw;
   list-style-type: none;
   padding-left: 1.0416666666667vw;
+
 }
 .headerList li {
   font-size: 0.9375vw;
+  
 }
 .headerLink {
   text-decoration: none;

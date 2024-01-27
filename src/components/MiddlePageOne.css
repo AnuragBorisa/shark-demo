@@ -1,5 +1,5 @@
 .middlePageOne {
-  background-color: rgb(0, 0, 0);
+ 
   padding: 5.208vw;
   display: flex;
   flex-direction: row;
@@ -20,7 +20,7 @@
   width: 33.854vw;
 }
 .buttonmiddlepage {
-  background-color: rgb(0, 0, 0);
+ 
   display: grid;
   grid-template-rows: auto auto auto;
   height: 22.833vw;
@@ -44,7 +44,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.833vw;
   padding-right: 11.458vw;
-  background-color: rgb(0, 0, 0);
+ 
 }
 .changeable-images {
   margin-top: 2.604vw;

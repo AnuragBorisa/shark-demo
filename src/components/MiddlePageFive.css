@@ -198,6 +198,7 @@
     padding-left: 2.604vw;
   }
   .blogs-Container {
+    
     margin-top: 15vw;
    
     display: grid;
@@ -205,14 +206,7 @@
     padding-left: 5%;
     padding-bottom: 0.260vw;
   }
-  .recent-blogs {
-    width: 10.417vw;
-    height: 5.208vw;
-    font-size: 1.302vw;
-    margin-left: 44.271vw;
-    padding-top: 2.604vw;
-    padding-left: 1.250vw;
-  }
+ 
   .card-blog {
     display: grid;
     grid-template-columns: 16.667vw 16.667vw auto;
@@ -233,11 +227,12 @@
     margin-top: 0.521vw;
   }
   .mid-pg-five-tags{
-    width: 90vw;
+   
+    width: 70vw;
     height: 8vw;
     
     padding-top: 10vw;
-    grid-template-columns: 20.94vw 20.94vw 6.94vw; /* 100px 100px 100px */
+    grid-template-columns: 18.94vw 26.94vw 6.94vw; /* 100px 100px 100px */
    
   }
   .bluedotmid-five {

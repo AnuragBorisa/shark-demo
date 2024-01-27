@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(0, 0, 0);
+ 
   /* added these lines */
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
   height: 13.89vw; /* 200px */
   width: 62.5vw; /* 900px */
   display: inline-block;
-  background-color: rgb(0, 0, 0);
+  
   /* removed this line */
   margin-left: 20.72vw; /* 50% */
 }
@@ -28,7 +28,7 @@
   font-size: 1.59vw; /* 20px */
 }
 .mid-pge-btns {
-  background-color: rgb(0, 0, 0);
+
   height: 13.89vw; /* 200px */
   display: grid;
   grid-template-columns: auto auto auto;

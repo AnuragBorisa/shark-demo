@@ -122,9 +122,9 @@ export default function SignUp() {
                   required
                   fullWidth
                   id="email"
-                  label="Phone Number"
-                  name="phone"
-                  autoComplete="phone"
+                  label="phone-number"
+                  name="email"
+                  autoComplete="phone number"
                 />
               </Grid>
               {/* <Grid item xs={12}>

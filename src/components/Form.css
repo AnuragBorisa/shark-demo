@@ -109,7 +109,7 @@ hr.solid {
     
    
     width: 100%; /* Reduce the width */
-    height: 160%; /* Reduce the height */
+    height: auto; /* Reduce the height */
     
   
     

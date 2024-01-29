@@ -273,6 +273,7 @@ const Header = () => {
         </div>
       </header>
       {isMobileMenuOpen && (
+        
         <ul className="mobile-menu">
           <li>
             <a href="/" className="headerLink explore">

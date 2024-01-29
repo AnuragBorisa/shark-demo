@@ -105,6 +105,10 @@
     height: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  .course-form{
+    margin-left: 3vw;
+    height: auto;
+   }
   
 }
 @media (min-width:769px)and (max-width: 1440px) {
@@ -136,5 +140,8 @@
     padding-left: 10px;
     padding-top: 5px;
     height: 25px;
+  }
+  .course-form{
+   margin-left: 2vw;
   }
 }

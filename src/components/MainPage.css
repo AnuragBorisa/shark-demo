@@ -64,7 +64,7 @@
   font-size: 0.781vw;
 }
 .buttons {
-  background-color: rgba(0, 0, 0, 0);
+ 
   padding: 2.083vw;
   display: flex;
   justify-content: space-around;
@@ -80,7 +80,7 @@
   font-size: 0.625vw;
 }
 .teams-button {
-  background-color: rgba(0, 0, 0, 0);
+  
   color: white;
   font-size: 0.781vw;
   height: 2.604vw;
@@ -90,12 +90,12 @@
   font-family: "Raleway", sans-serif;
 }
 .trust-heading {
-  background-color: rgba(0, 0, 0, 0);
+
   width: 13.021vw;
   margin-top: 0.521vw;
 }
 .brands {
-  background-color: rgba(0, 0, 0, 0);
+ 
 
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -193,7 +193,7 @@
     width: 100%;
   }
   .buttons {
-    background-color: rgba(0, 0, 0, 0);
+   
     padding: 3.083vw;
     display: flex;
     justify-content: space-around;

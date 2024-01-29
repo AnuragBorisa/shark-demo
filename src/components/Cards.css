@@ -102,21 +102,22 @@
 @media (max-width: 768px) {
   /* For screens that are 768px or smaller */
   .card-main {
+    
     border-radius: 20px;
    
-    width: 65vw; /* Reduce the width */
-    height: 120.72vw; /* Reduce the height */
+    width: 80vw; /* Reduce the width */
+    height: 130.72vw; /* Reduce the height */
     margin-top: 0vw; /* Reduce the margin-top */
   }
 
   .cards-image {
-    width: 65vw; /* Reduce the width */
-    height: 45.89vw; /* Reduce the height */
+    width: 80vw; /* Reduce the width */
+    height: 50.89vw; /* Reduce the height */
   }
 
   .internal-cards-image {
-    width: 65vw; /* Reduce the width */
-    height: 45.89vw; /* Reduce the height */
+    width: 80vw; /* Reduce the width */
+    height: 50.89vw; /* Reduce the height */
   }
 
   .cards-content {
@@ -129,7 +130,7 @@
   .cards-duration {
   
    
-    width: 63vw
+    width: 70vw
     ;
     height: 7.17vw; /* Reduce the height */
       /* Reduce the gap */
@@ -138,26 +139,26 @@
   .course-btn {
 
     margin: 0;
-    padding-left: 2vw;
-    width: 15.17vw; /* Reduce the width */
-    height: 4.74vw; /* Reduce the height */
-    font-size: 2.8vw; /* Reduce the font-size */
+    padding-left: 2.5vw;
+    width: 20.17vw; /* Reduce the width */
+    height: 6.74vw; /* Reduce the height */
+    font-size: 3.8vw; /* Reduce the font-size */
     /* Reduce the padding-top */
   }
 
   .course-duration {
     
     padding-left: 2vw;
-    width: 15.47vw; /* Reduce the width */
-    height: 4.74vw; /* Reduce the height */
-    font-size: 2.8vw; /* Reduce the font-size */
+    width: 20.47vw; /* Reduce the width */
+    height: 6.74vw; /* Reduce the height */
+    font-size: 3.8vw; /* Reduce the font-size */
    /* Reduce the padding-top */
   }
 
   .CEUS {
-    width: 15.47vw; /* Reduce the width */
-    height: 4.74vw; /* Reduce the height */
-    font-size: 2.8vw; /* Reduce the font-size */
+    width: 20.47vw; /* Reduce the width */
+    height: 6.74vw; /* Reduce the height */
+    font-size: 3.8vw; /* Reduce the font-size */
     padding-left: 2vw; /* Reduce the padding-left */
     padding-top: 0.35vw; /* Reduce the padding-top */
   }
@@ -167,24 +168,27 @@
    
      text-align: none;
     
-    height: 10vh;
+    height: 8vh;
     width: 60vw;
     
-    font-size: 4.0vw; /* Reduce the font-size */
+    font-size: 4.5vw; /* Reduce the font-size */
     /* Reduce the padding-left */
   }
 
   .card-para {
-    padding-top: 1vh;
-    font-size: 2.8vw; /* Reduce the font-size */
-    width: 55vw;
+    padding-top: 2vh;
+    font-size: 3.0vw; /* Reduce the font-size */
+    width: 70vw;
     padding-left: 1vw; /* Reduce the padding-left */
   }
 
   .take-me-there {
     width: 20.94vw; /* Reduce the width */
     height: 5.74vh; /* Reduce the height */
-    margin-left: 20.08vw; /* Reduce the margin-left */
+    margin-left: 20.08vw;
+    
+  
+    /* Reduce the margin-left */
   }
 }
 

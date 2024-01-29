@@ -80,7 +80,7 @@
     display: grid;
     grid-template-columns: 20% 30%; /* Adjust if needed for image/content width */
      /* 10% */
-    padding-left: 15vw;
+    padding-left: 7.5vw;
     padding-top: 7vh;
   }
 

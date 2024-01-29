@@ -212,7 +212,7 @@
   .card-blog {
     display: grid;
     grid-template-columns: 16.667vw 16.667vw auto;
-    padding-left: 18.438vw;
+    padding-left: 10.438vw;
     padding-bottom: 0.521vw;
   }
   .show-all-content {

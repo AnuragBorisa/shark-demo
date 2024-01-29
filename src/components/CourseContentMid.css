@@ -61,7 +61,7 @@
   width: 700px;
   margin-right: 100px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .course-container-mid {
   }
   .course-content {
@@ -103,9 +103,11 @@
     margin-top: 35px;
   }
   .description-h1 {
+   
     padding-right: 370px;
     font-size: 20px;
     padding-left: 45px;
+    width: 40vw;
   }
   .description-para {
     font-size: 12px;

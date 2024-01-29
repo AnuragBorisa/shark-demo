@@ -8,8 +8,8 @@
 }
 .box-one {
   background-color: rgb(21, 20, 36);
-  width: 50%;
-  height:75vh;
+  width:40vw;
+  height:60vh;
   
   /* converted from 220px */
   display: grid;
@@ -18,20 +18,20 @@
 }
 .box-two {
   background-color: cyan;
-  width: 50%;
-  height:75vh;
+  width: 40vw;
+  height:60vh;
   border-radius: 30px;
 }
 .heading-middle-two {
   padding-top: 3.13%; /* converted from 50px */
-  padding-left: 9.38%; /* converted from 150px */
+  padding-left: 10vw; /* converted from 150px */
   font-size: 187.5%; /* converted from 30px */
 }
 .headline {
   /* background-color: rgba(42, 50, 165, 0.288); */
   width: 50%; /* converted from 600px */
   padding-top: 1.25%; /* converted from 15px */
-  margin-left: 5%; /* converted from 60px */
+  margin-left: 15%; /* converted from 60px */
   text-align: justify;
   height: 5.83%; /* converted from 70px */
   display: grid;
@@ -42,13 +42,13 @@
 }
 
 .headline h1 {
-  font-size: 1.5vw;
+  font-size: 1.1vw;
 }
 .headline p {
   color: rgba(245, 229, 229, 0.671);
   padding: 10px;
   padding-left: 0px;
-  font-size:1vw;
+  font-size:0.8vw;
   white-space: nowrap;
   padding-top: 1vh;
 }
@@ -62,7 +62,7 @@
   height: 3.33vh; /* converted from 40px */
   width: 15vw; /* converted from 200px */
   font-size: 62.5%; /* converted from 10px */
-  margin-left: 5%; /* converted from 60px */
+  margin-left: 15%; /* converted from 60px */
 
   border-radius: 10px;
   color: black;
@@ -70,9 +70,9 @@
   text-wrap: nowrap;
 }
 .box-two-img {
-  width: 40vw;
+  width: 35vw;
   border-radius: 30px;
-  height: 75vh;
+  height: 60vh;
 }
 
 

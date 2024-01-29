@@ -74,12 +74,13 @@ const CourseContentMid = () => {
               height: "10px",
               borderRadius: "50%",
               backgroundColor: "blue",
-              marginRight: "10px",
+             
               verticalAlign: "middle",
             }}
           ></span>
           {topic.heading}
-          <span style={{display: "inline-block", width: "20px", height: "20px", border: "1px solid black", borderRadius: "5px", backgroundColor: "", marginLeft: "700px", verticalAlign: "middle", cursor: "pointer"}}>{">"}</span>
+          <span className="arrow-span" style={{
+            }}>{">"}</span>
         </h1>
        
         {clicked[index] && (

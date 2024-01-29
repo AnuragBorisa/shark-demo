@@ -42,6 +42,7 @@
   font-size: 25px;
 }
 .description {
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,6 +53,7 @@
   margin-top: 70px;
 }
 .description-h1 {
+ 
   padding-right: 740px;
   font-size: 40px;
   padding-left: 90px;
@@ -61,6 +63,7 @@
   width: 700px;
   margin-right: 100px;
 }
+
 @media only screen and (max-width: 768px) {
   .course-container-mid {
   }
@@ -104,10 +107,11 @@
   }
   .description-h1 {
    
-    padding-right: 370px;
-    font-size: 20px;
-    padding-left: 45px;
-    width: 40vw;
+    font-size: 5vw;
+    width: 100%; /* Change the width to 100% */
+    padding-left: 2vw; /* Reduce the padding-left */
+    padding-right: 2vw; /* Reduce the padding-right */
+    
   }
   .description-para {
     font-size: 12px;
@@ -115,7 +119,7 @@
     margin-right: 50px;
   }
 }
-@media only screen and (max-width: 1440px) {
+@media (min-width:769) and (max-width: 1440px) {
   .course-container-mid {
     /* no changes needed */
   }

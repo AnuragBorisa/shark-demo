@@ -134,17 +134,18 @@
   
 @media only screen and (max-width: 768px) {
   .mid-pge-five {
+  
     padding-top: 10%;
    
-    height: 180vw;
+    height: 150vh;
   }
   .comments-container {
     background-color: rgba(20, 23, 36, 0.582);
     display: grid;
     grid-template-rows: 2.604vw 35.812vw auto;
-    width: 80.063vw;
-    margin-left: 10vw;
-    height: 60.042vw;
+    width: 90.063vw;
+    margin-left: 5vw;
+    height: 50.042vh;
     border-radius: 1.042vw;
     padding-top: 10.208vw;
    
@@ -152,7 +153,7 @@
   .comments-heading {
     
     margin-left: 20.458vw;
-    font-size: 3.042vw;
+    font-size: 4.042vw;
     padding: 0;
     width: 50.625vw;
     padding-left: 2.604vw;
@@ -160,20 +161,21 @@
   }
   .comments-para {
    
-    font-size: 2vw;
+    font-size: 2.8vw;
     
     margin-top: 5vw;
     padding-left: 0.521vw;
-    width: 60.042vw;
+    width: 70.042vw;
     margin-left: 9.771vw;
     height: 30.812vw;
    
   }
   .comments-btns {
+    margin-top: 10vh;
     /* background-color: brown; */
     width: 14.417vw;
     height: 14.417vw;
-    margin-left: 32.063vw;
+    margin-left: 38.063vw;
     
     display: flex;
     flex-direction: row;
@@ -203,14 +205,14 @@
    
     display: grid;
     grid-template-rows: auto auto auto;
-    padding-left: 5%;
+    
     padding-bottom: 0.260vw;
   }
  
   .card-blog {
     display: grid;
     grid-template-columns: 16.667vw 16.667vw auto;
-    padding-left: 23.438vw;
+    padding-left: 18.438vw;
     padding-bottom: 0.521vw;
   }
   .show-all-content {
@@ -227,41 +229,45 @@
     margin-top: 0.521vw;
   }
   .mid-pg-five-tags{
-   
-    width: 70vw;
-    height: 8vw;
     
-    padding-top: 10vw;
-    grid-template-columns: 18.94vw 26.94vw 6.94vw; /* 100px 100px 100px */
+   
+  
+    width: 75vw;
+    height: 8vh;
+    padding-left: 0;
+    margin-left: 15vw;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    padding-top: 5vw;
+    grid-template-columns: 15.94vw 30.94vw 6.94vw; /* 100px 100px 100px */
    
   }
   .bluedotmid-five {
-    padding: 0;
-    margin: 0;
+   
     border-radius: 50%;
-    height: 3vw; /* 20px */
-    width: 3vw; /* 20px */
+    height: 5vw; /* 20px */
+    width: 5vw; /* 20px */
+    
   }
   .fullcatlog-five {
-    padding: 0;
-    margin: 0;
-    width: 20vw;
-    height: 4vw;
-    font-size: 2.5vw;
+   
+    width: 25vw;
+    height: 4vh;
+    font-size: 3.0vw;
     margin-left: 0px;
   }
   .pop-courses-five {
-    padding: 0;
+    
       /* 20px */
-    font-size: 3.04vw; /* 15px */
+    font-size: 3.5vw; /* 15px */
   }
   .blog-navigation{
     height: 6.94vw; /* 100px */
     padding-top: 1.74vw; /* 25px */
-    padding-left: 0vw; /* 8% */
+    padding-left: 10vw; /* 8% */
     width: 50.42vw; /* 150px */
     /* background-color: blueviolet; */
-    margin-top: 70.19vw; /* 550px */
+    margin-top: 70.19vh; /* 550px */
     display: flex;
     flex-direction: row;
   }

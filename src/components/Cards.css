@@ -103,80 +103,84 @@
   /* For screens that are 768px or smaller */
   .card-main {
    
-    width: 45vw; /* Reduce the width */
-    height: 65.72vw; /* Reduce the height */
+    width: 65vw; /* Reduce the width */
+    height: 120.72vw; /* Reduce the height */
     margin-top: 0vw; /* Reduce the margin-top */
   }
 
   .cards-image {
-    width: 45vw; /* Reduce the width */
-    height: 24.89vw; /* Reduce the height */
+    width: 65vw; /* Reduce the width */
+    height: 34.89vw; /* Reduce the height */
   }
 
   .internal-cards-image {
-    width: 45vw; /* Reduce the width */
-    height: 24.89vw; /* Reduce the height */
+    width: 65vw; /* Reduce the width */
+    height: 34.89vw; /* Reduce the height */
   }
 
   .cards-content {
+   
    padding-left: 2vw;
     
-    height: 18.89vw; /* Reduce the height */
+    height: 4.89vh; /* Reduce the height */
   }
 
   .cards-duration {
+  
    
-    width: 45vw
+    width: 63vw
     ;
-    height: 4.17vw; /* Reduce the height */
+    height: 7.17vw; /* Reduce the height */
       /* Reduce the gap */
   }
 
   .course-btn {
     margin: 0;
     padding-left: 2vw;
-    width: 12.17vw; /* Reduce the width */
-    height: 2.74vw; /* Reduce the height */
-    font-size: 2.3vw; /* Reduce the font-size */
+    width: 15.17vw; /* Reduce the width */
+    height: 4.74vw; /* Reduce the height */
+    font-size: 2.8vw; /* Reduce the font-size */
     /* Reduce the padding-top */
   }
 
   .course-duration {
     padding-left: 2vw;
-    width: 12.47vw; /* Reduce the width */
-    height: 2.74vw; /* Reduce the height */
-    font-size: 2.3vw; /* Reduce the font-size */
+    width: 15.47vw; /* Reduce the width */
+    height: 4.74vw; /* Reduce the height */
+    font-size: 2.8vw; /* Reduce the font-size */
    /* Reduce the padding-top */
   }
 
   .CEUS {
-    width: 12.47vw; /* Reduce the width */
-    height: 2.74vw; /* Reduce the height */
-    font-size: 2.3vw; /* Reduce the font-size */
+    width: 15.47vw; /* Reduce the width */
+    height: 4.74vw; /* Reduce the height */
+    font-size: 2.8vw; /* Reduce the font-size */
     padding-left: 2vw; /* Reduce the padding-left */
     padding-top: 0.35vw; /* Reduce the padding-top */
   }
 
   .card-heading {
-    padding: 0;
    
-   
-    width: 30vw;
-    text-align: center;
-    font-size: 2.5vw; /* Reduce the font-size */
+     text-align: start;
+    padding-top: 2vh;
+    height: 10vh;
+    width: 60vw;
+    
+    font-size: 4.0vw; /* Reduce the font-size */
     /* Reduce the padding-left */
   }
 
   .card-para {
-    font-size: 2vw; /* Reduce the font-size */
-    width: 40vw;
+    margin-top: 3vh;
+    font-size: 2.8vw; /* Reduce the font-size */
+    width: 55vw;
     padding-left: 2vw; /* Reduce the padding-left */
   }
 
   .take-me-there {
-    width: 6.94vw; /* Reduce the width */
-    height: 1.74vw; /* Reduce the height */
-    margin-left: 2.08vw; /* Reduce the margin-left */
+    width: 20.94vw; /* Reduce the width */
+    height: 5.74vh; /* Reduce the height */
+    margin-left: 20.08vw; /* Reduce the margin-left */
   }
 }
 

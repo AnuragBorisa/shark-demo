@@ -115,9 +115,9 @@
     }
   
     .bluedot {
-      height: 2vw; /* 2% of viewport width */
-      width: 2vw; /* 2% of viewport width */
-      margin-top: 5vw;
+      height: 2.5vw; /* 2% of viewport width */
+      width: 2.5vw; /* 2% of viewport width */
+      margin-top: 7%;
     }
   
     .click-buttons {
